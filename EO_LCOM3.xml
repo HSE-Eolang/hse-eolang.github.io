@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metric xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        date="2021-07-07T16:30:36.326199300Z"
+        schema="xsd/skeleton.xsd"
+        version="1.0-SNAPSHOT"
+        xsi:noNamespaceSchemaLocation="xsd/metric.xsd">
+   <title>EO_LCOM3</title>
+   <description>Metric description</description>
+   <app element="false"
+        id="D:\Projects\HuaweiLab\jpeek\..\json\java\target\classes">
+      <package element="false" id="com.jsoniter.fuzzy">
+         <class color="red" element="false" id="StringDoubleDecoder" value="0"/>
+         <class color="red"
+                element="false"
+                id="MaybeStringIntDecoder"
+                value="0"/>
+         <class color="red" element="false" id="StringIntDecoder" value="0"/>
+         <class color="red" element="false" id="StringLongDecoder" value="0"/>
+         <class color="red"
+                element="false"
+                id="MaybeStringShortDecoder"
+                value="0"/>
+         <class color="red" element="false" id="StringShortDecoder" value="0"/>
+         <class color="red"
+                element="false"
+                id="MaybeStringLongDecoder"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="MaybeEmptyArrayDecoder"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="MaybeStringFloatDecoder"
+                value="0"/>
+         <class color="red" element="false" id="StringFloatDecoder" value="0"/>
+         <class color="red"
+                element="false"
+                id="MaybeStringDoubleDecoder"
+                value="0"/>
+      </package>
+      <package element="false" id="com.jsoniter.static_codegen">
+         <class color="red" element="false" id="StaticCodegen" value="0"/>
+      </package>
+      <package element="false" id="com.jsoniter.extra">
+         <class color="red"
+                element="false"
+                id="JacksonCompatibilityMode$Builder"
+                value="0"/>
+         <class color="red" element="false" id="Base64Support" value="0"/>
+         <class color="red" element="false" id="JdkDatetimeSupport" value="0"/>
+         <class color="red"
+                element="false"
+                id="NamingStrategySupport"
+                value="0"/>
+         <class color="red" element="false" id="Base64FloatSupport" value="0"/>
+         <class color="red" element="false" id="PreciseFloatSupport" value="0"/>
+         <class color="red"
+                element="false"
+                id="JacksonCompatibilityMode"
+                value="0"/>
+         <class color="green"
+                element="true"
+                id="GsonCompatibilityMode$Builder"
+                value="0.761904761904762"/>
+         <class color="green"
+                element="true"
+                id="GsonCompatibilityMode"
+                value="1.1111111111111112"/>
+         <class color="red" element="false" id="Base64" value="0"/>
+      </package>
+      <package element="false" id="com.jsoniter.output">
+         <class color="red" element="false" id="CodegenAccess" value="0"/>
+         <class color="green"
+                element="true"
+                id="ReflectionArrayEncoder"
+                value="1.0"/>
+         <class color="red"
+                element="false"
+                id="MapKeyEncoders$NumberKeyEncoder"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="MapKeyEncoders$StringKeyEncoder"
+                value="0"/>
+         <class color="red" element="false" id="StreamImplNumber" value="0"/>
+         <class color="green"
+                element="false"
+                id="ReflectionMapEncoder"
+                value="2.0"/>
+         <class color="green"
+                element="true"
+                id="ReflectionObjectEncoder"
+                value="1.3333333333333335"/>
+         <class color="red" element="false" id="StreamImplString" value="0"/>
+         <class color="red"
+                element="false"
+                id="ReflectionEnumEncoder"
+                value="0"/>
+         <class color="green"
+                element="true"
+                id="ReflectionListEncoder"
+                value="1.0"/>
+         <class color="red"
+                element="false"
+                id="ReflectionEncoderFactory"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="CodegenAccess$StaticCodegenTarget"
+                value="0"/>
+         <class color="red" element="false" id="CodegenImplObject" value="0"/>
+         <class color="green"
+                element="true"
+                id="ReflectionCollectionEncoder"
+                value="1.0"/>
+         <class color="red" element="false" id="CodegenImplMap" value="0"/>
+         <class color="red" element="false" id="CodegenImplArray" value="0"/>
+         <class color="red" element="false" id="CodegenImplNative" value="0"/>
+         <class color="red" element="false" id="Codegen" value="0"/>
+         <class color="red" element="false" id="DynamicCodegen" value="0"/>
+         <class color="green"
+                element="true"
+                id="CodegenResult"
+                value="0.7333333333333334"/>
+         <class color="red"
+                element="false"
+                id="MapKeyEncoders$DynamicKeyEncoder"
+                value="0"/>
+         <class color="red" element="false" id="MapKeyEncoders" value="0"/>
+         <class color="red" element="false" id="JsonStreamPool" value="0"/>
+         <class color="green"
+                element="true"
+                id="JsonStream"
+                value="0.8608695652173913"/>
+      </package>
+      <package element="false" id="com.jsoniter">
+         <class color="red" element="false" id="CodegenImplEnum" value="0"/>
+         <class color="red" element="false" id="IterImpl" value="0"/>
+         <class color="red" element="false" id="DynamicCodegen" value="0"/>
+         <class color="red" element="false" id="IterImplArray" value="0"/>
+         <class color="red"
+                element="false"
+                id="IterImplForStreaming$numberChars"
+                value="0"/>
+         <class color="red" element="false" id="IterImplNumber" value="0"/>
+         <class color="red" element="false" id="IterImplForStreaming" value="0"/>
+         <class color="red" element="false" id="IterImplObject" value="0"/>
+         <class color="red" element="false" id="IterImplSkip" value="0"/>
+         <class color="red" element="false" id="IterImplString" value="0"/>
+         <class color="red" element="false" id="MapKeyDecoders" value="0"/>
+         <class color="green"
+                element="true"
+                id="JsonIterator"
+                value="0.9776785714285714"/>
+         <class color="red" element="false" id="JsonIteratorPool" value="0"/>
+         <class color="red"
+                element="false"
+                id="MapKeyDecoders$EnumKeyDecoder"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="MapKeyDecoders$NumberKeyDecoder"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="ReflectionCollectionDecoder"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="MapKeyDecoders$StringKeyDecoder"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="ReflectionArrayDecoder"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="ReflectionDecoderFactory"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="ReflectionEnumDecoder"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="ReflectionObjectDecoder$OnlyField"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="ReflectionObjectDecoder"
+                value="0"/>
+         <class color="red" element="false" id="ReflectionMapDecoder" value="0"/>
+         <class color="red"
+                element="false"
+                id="ReflectionObjectDecoder$WithCtor"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="ReflectionObjectDecoder$WithWrapper"
+                value="0"/>
+         <class color="red" element="false" id="CodegenImplNative" value="0"/>
+         <class color="red" element="false" id="CodegenAccess" value="0"/>
+         <class color="red"
+                element="false"
+                id="CodegenAccess$StaticCodegenTarget"
+                value="0"/>
+         <class color="red" element="false" id="CodegenImplMap" value="0"/>
+         <class color="red" element="false" id="Codegen" value="0"/>
+         <class color="red"
+                element="false"
+                id="CodegenImplObjectHash"
+                value="0"/>
+         <class color="red" element="false" id="CodegenImplArray" value="0"/>
+         <class color="red"
+                element="false"
+                id="CodegenImplObjectStrict"
+                value="0"/>
+      </package>
+      <package element="false" id="com.jsoniter.spi">
+         <class color="red" element="false" id="OmitValue$Null" value="0"/>
+         <class color="red" element="false" id="Decoder$FloatDecoder" value="0"/>
+         <class color="green"
+                element="true"
+                id="Config"
+                value="0.9464285714285714"/>
+         <class color="red"
+                element="false"
+                id="Decoder$BooleanDecoder"
+                value="0"/>
+         <class color="red" element="false" id="GenericsHelper" value="0"/>
+         <class color="yellow"
+                element="true"
+                id="GenericsHelper$ParameterizedTypeImpl"
+                value="0.4"/>
+         <class color="red"
+                element="false"
+                id="JsoniterSpi$TypeProperty"
+                value="0.0"/>
+         <class color="green" element="true" id="ClassDescriptor" value="1.0"/>
+         <class color="red" element="false" id="ClassInfo" value="0"/>
+         <class color="red" element="false" id="Decoder$IntDecoder" value="0"/>
+         <class color="green"
+                element="true"
+                id="TypeLiteral"
+                value="0.9722222222222222"/>
+         <class color="red" element="false" id="JsonException" value="0"/>
+         <class color="red"
+                element="false"
+                id="ConstructorDescriptor"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="Encoder$StringFloatEncoder"
+                value="0"/>
+         <class color="red" element="false" id="Encoder$IntEncoder" value="0"/>
+         <class color="red" element="false" id="OmitValue$False" value="0"/>
+         <class color="red" element="false" id="OmitValue$ZeroInt" value="0"/>
+         <class color="red" element="false" id="EncodeTo" value="0"/>
+         <class color="red" element="false" id="JsoniterSpi" value="0"/>
+         <class color="red" element="false" id="Decoder$ShortDecoder" value="0"/>
+         <class color="red"
+                element="false"
+                id="GenericsHelper$GenericArrayTypeImpl"
+                value="0.0"/>
+         <class color="red" element="false" id="Decoder$LongDecoder" value="0"/>
+         <class color="red" element="false" id="UnwrapperDescriptor" value="0"/>
+         <class color="red" element="false" id="OmitValue$ZeroLong" value="0"/>
+         <class color="green"
+                element="true"
+                id="Binding"
+                value="1.0666666666666667"/>
+         <class color="red"
+                element="false"
+                id="Encoder$DoubleEncoder"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="Decoder$DoubleDecoder"
+                value="0"/>
+         <class color="red"
+                element="false"
+                id="Encoder$StringIntEncoder"
+                value="0"/>
+         <class color="red" element="false" id="Encoder$FloatEncoder" value="0"/>
+         <class color="red"
+                element="false"
+                id="Encoder$StringLongEncoder"
+                value="0"/>
+         <class color="red" element="false" id="OmitValue$ZeroFloat" value="0"/>
+         <class color="red" element="false" id="EmptyExtension" value="0"/>
+         <class color="red"
+                element="false"
+                id="Encoder$StringShortEncoder"
+                value="0"/>
+         <class color="red" element="false" id="OmitValue$ZeroDouble" value="0"/>
+         <class color="red" element="false" id="WrapperDescriptor" value="0"/>
+         <class color="red" element="false" id="OmitValue$ZeroShort" value="0"/>
+         <class color="yellow" element="true" id="Config$Builder" value="0.6"/>
+         <class color="red"
+                element="false"
+                id="Encoder$StringDoubleEncoder"
+                value="0"/>
+         <class color="yellow" element="true" id="Slice" value="0.46875"/>
+         <class color="red" element="false" id="Encoder$LongEncoder" value="0"/>
+         <class color="red" element="false" id="OmitValue$ZeroByte" value="0"/>
+         <class color="red"
+                element="false"
+                id="Encoder$BooleanEncoder"
+                value="0"/>
+         <class color="red" element="false" id="Encoder$ShortEncoder" value="0"/>
+         <class color="green" element="true" id="OmitValue$Parsed" value="1.0"/>
+         <class color="red" element="false" id="OmitValue$ZeroChar" value="0"/>
+      </package>
+      <package element="false" id="com.jsoniter.any">
+         <class color="green"
+                element="true"
+                id="ObjectLazyAny"
+                value="0.8666666666666667"/>
+         <class color="red"
+                element="true"
+                id="LongAny"
+                value="0.09090909090909091"/>
+         <class color="green" element="true" id="NullAny" value="1.1"/>
+         <class color="yellow"
+                element="true"
+                id="ListWrapperAny$WrapperIterator"
+                value="0.5"/>
+         <class color="green"
+                element="true"
+                id="ObjectAny"
+                value="0.6153846153846154"/>
+         <class color="green" element="true" id="LongLazyAny" value="0.75"/>
+         <class color="green"
+                element="true"
+                id="ListWrapperAny"
+                value="0.7857142857142857"/>
+         <class color="green"
+                element="true"
+                id="StringLazyAny"
+                value="0.9444444444444444"/>
+         <class color="green"
+                element="true"
+                id="ObjectLazyAny$LazyIterator"
+                value="0.75"/>
+         <class color="green" element="true" id="TrueAny" value="1.1"/>
+         <class color="yellow"
+                element="true"
+                id="StringAny"
+                value="0.5909090909090909"/>
+         <class color="yellow"
+                element="true"
+                id="ObjectAny$IteratorAdapter"
+                value="0.5"/>
+         <class color="green"
+                element="true"
+                id="NotFoundAny"
+                value="0.9230769230769231"/>
+         <class color="green"
+                element="true"
+                id="MapWrapperAny$WrapperIterator"
+                value="0.75"/>
+         <class color="green"
+                element="true"
+                id="LazyAny"
+                value="0.7142857142857143"/>
+         <class color="green"
+                element="true"
+                id="MapWrapperAny"
+                value="0.8214285714285714"/>
+         <class color="green" element="true" id="Any" value="1.0"/>
+         <class color="green"
+                element="true"
+                id="ArrayLazyAny"
+                value="0.8333333333333333"/>
+         <class color="red"
+                element="true"
+                id="ArrayAny"
+                value="0.14285714285714285"/>
+         <class color="green"
+                element="true"
+                id="ArrayLazyAny$LazyIterator"
+                value="0.8333333333333334"/>
+         <class color="green"
+                element="true"
+                id="ArrayWrapperAny$WrapperIterator"
+                value="0.8333333333333334"/>
+         <class color="red"
+                element="true"
+                id="DoubleAny"
+                value="0.09090909090909091"/>
+         <class color="green"
+                element="true"
+                id="ArrayWrapperAny"
+                value="0.8214285714285714"/>
+         <class color="green" element="true" id="DoubleLazyAny" value="0.75"/>
+         <class color="green" element="true" id="FalseAny" value="1.1"/>
+         <class color="red"
+                element="true"
+                id="FloatAny"
+                value="0.09090909090909091"/>
+         <class color="red"
+                element="true"
+                id="IntAny"
+                value="0.09090909090909091"/>
+      </package>
+   </app>
+   <colors high="0.6" low="0.4">[0.4000 .. 0.6000]</colors>
+   <min>0.09090909090909091</min>
+   <max>1.3333333333333335</max>
+   <bars xmlns:xs="http://www.w3.org/2001/XMLSchema"><!--count: 151, steps: 32; all: 44; min: 0.09090909; max: 1.3333334; delta: 0.038825758-->
+      <bar color="red" x="0">4</bar>
+      <!--step: 0, left: 0.09090909, right: 0.12973484-->
+      <bar color="red" x="0.03125">1</bar>
+      <!--step: 1, left: 0.12973484, right: 0.16856061-->
+      <bar color="yellow" x="0.0625">0</bar>
+      <!--step: 2, left: 0.16856061, right: 0.20738637-->
+      <bar color="yellow" x="0.09375">0</bar>
+      <!--step: 3, left: 0.20738637, right: 0.24621212-->
+      <bar color="yellow" x="0.125">0</bar>
+      <!--step: 4, left: 0.24621212, right: 0.28503788-->
+      <bar color="yellow" x="0.15625">0</bar>
+      <!--step: 5, left: 0.28503788, right: 0.32386363-->
+      <bar color="yellow" x="0.1875">0</bar>
+      <!--step: 6, left: 0.32386363, right: 0.3626894-->
+      <bar color="yellow" x="0.21875">1</bar>
+      <!--step: 7, left: 0.3626894, right: 0.40151516-->
+      <bar color="yellow" x="0.25">0</bar>
+      <!--step: 8, left: 0.40151516, right: 0.4403409-->
+      <bar color="yellow" x="0.28125">1</bar>
+      <!--step: 9, left: 0.4403409, right: 0.47916666-->
+      <bar color="yellow" x="0.3125">2</bar>
+      <!--step: 10, left: 0.47916666, right: 0.51799244-->
+      <bar color="yellow" x="0.34375">0</bar>
+      <!--step: 11, left: 0.51799244, right: 0.5568182-->
+      <bar color="yellow" x="0.375">1</bar>
+      <!--step: 12, left: 0.5568182, right: 0.595644-->
+      <bar color="yellow" x="0.40625">2</bar>
+      <!--step: 13, left: 0.595644, right: 0.63446975-->
+      <bar color="yellow" x="0.4375">0</bar>
+      <!--step: 14, left: 0.63446975, right: 0.6732955-->
+      <bar color="yellow" x="0.46875">0</bar>
+      <!--step: 15, left: 0.6732955, right: 0.71212125-->
+      <bar color="green" x="0.5">6</bar>
+      <!--step: 16, left: 0.71212125, right: 0.750947-->
+      <bar color="green" x="0.53125">2</bar>
+      <!--step: 17, left: 0.750947, right: 0.78977275-->
+      <bar color="green" x="0.5625">2</bar>
+      <!--step: 18, left: 0.78977275, right: 0.8285985-->
+      <bar color="green" x="0.59375">5</bar>
+      <!--step: 19, left: 0.8285985, right: 0.86742425-->
+      <bar color="yellow" x="0.625">0</bar>
+      <!--step: 20, left: 0.86742425, right: 0.90625-->
+      <bar color="green" x="0.65625">2</bar>
+      <!--step: 21, left: 0.90625, right: 0.94507575-->
+      <bar color="green" x="0.6875">3</bar>
+      <!--step: 22, left: 0.94507575, right: 0.9839015-->
+      <bar color="green" x="0.71875">6</bar>
+      <!--step: 23, left: 0.9839015, right: 1.0227273-->
+      <bar color="yellow" x="0.75">0</bar>
+      <!--step: 24, left: 1.0227273, right: 1.061553-->
+      <bar color="green" x="0.78125">4</bar>
+      <!--step: 25, left: 1.061553, right: 1.1003789-->
+      <bar color="green" x="0.8125">1</bar>
+      <!--step: 26, left: 1.1003789, right: 1.1392046-->
+      <bar color="yellow" x="0.84375">0</bar>
+      <!--step: 27, left: 1.1392046, right: 1.1780304-->
+      <bar color="yellow" x="0.875">0</bar>
+      <!--step: 28, left: 1.1780304, right: 1.2168561-->
+      <bar color="yellow" x="0.90625">0</bar>
+      <!--step: 29, left: 1.2168561, right: 1.2556819-->
+      <bar color="yellow" x="0.9375">0</bar>
+      <!--step: 30, left: 1.2556819, right: 1.2945076-->
+      <bar color="green" x="0.96875">1</bar>
+      <!--step: 31, left: 1.2945076, right: 1.3333334-->
+   </bars>
+   <statistics>
+      <total>151</total>
+      <elements>44</elements>
+      <mean>0.7641393301472355</mean>
+      <sigma>0.30417170018863504</sigma>
+      <variance>0.09252042319564487</variance>
+      <defects>0.25</defects>
+   </statistics>
+</metric>

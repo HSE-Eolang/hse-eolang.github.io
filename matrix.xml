@@ -1,0 +1,1880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<matrix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        date="2021-07-07T16:33:40.196065600Z"
+        version="1.0-SNAPSHOT"
+        xsi:noNamespaceSchemaLocation="xsd/matrix.xsd">
+   <classes>
+      <class id="com.jsoniter.fuzzy.Any"
+             rank="0.7000"
+             short_id="c.j.f.Any"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ArrayAny"
+             rank="0.5000"
+             short_id="c.j.f.ArrayAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="green" name="EO_SCOM" rank="5"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ArrayLazyAny"
+             rank="0.7000"
+             short_id="c.j.f.ArrayLazyAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ArrayLazyAny$LazyIterator"
+             rank="0.6500"
+             short_id="c.j.f.A..$LazyIterator"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ArrayWrapperAny"
+             rank="0.7000"
+             short_id="c.j.f.ArrayWrapperAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ArrayWrapperAny$WrapperIterator"
+             rank="0.6500"
+             short_id="c.j.f.A..$WrapperIterator"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Base64"
+             rank="0.2000"
+             short_id="c.j.f.Base64"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Base64FloatSupport"
+             rank="0.2000"
+             short_id="c.j.f.Base64FloatSupport"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Base64Support"
+             rank="0.2000"
+             short_id="c.j.f.Base64Support"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Binding"
+             rank="0.7000"
+             short_id="c.j.f.Binding"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ClassDescriptor"
+             rank="0.6000"
+             short_id="c.j.f.ClassDescriptor"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ClassInfo"
+             rank="0.2000"
+             short_id="c.j.f.ClassInfo"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Codegen"
+             rank="0.2000"
+             short_id="c.j.f.Codegen"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.CodegenAccess"
+             rank="0.2000"
+             short_id="c.j.f.CodegenAccess"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.CodegenAccess$StaticCodegenTarget"
+             rank="0.2000"
+             short_id="c.j.f.C..$StaticCodegenTarget"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.CodegenImplArray"
+             rank="0.2000"
+             short_id="c.j.f.CodegenImplArray"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.CodegenImplEnum"
+             rank="0.2000"
+             short_id="c.j.f.CodegenImplEnum"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.CodegenImplMap"
+             rank="0.2000"
+             short_id="c.j.f.CodegenImplMap"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.CodegenImplNative"
+             rank="0.2000"
+             short_id="c.j.f.CodegenImplNative"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.CodegenImplObject"
+             rank="0.2000"
+             short_id="c.j.f.CodegenImplObject"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.CodegenImplObjectHash"
+             rank="0.2000"
+             short_id="c.j.f.CodegenImplObjectHash"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.CodegenImplObjectStrict"
+             rank="0.2000"
+             short_id="c.j.f.CodegenImplObjectStrict"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.CodegenResult"
+             rank="0.7000"
+             short_id="c.j.f.CodegenResult"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Config"
+             rank="0.7000"
+             short_id="c.j.f.Config"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Config$Builder"
+             rank="0.6000"
+             short_id="c.j.f.C..$Builder"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="yellow" name="EO_LCOM3" rank="3"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ConstructorDescriptor"
+             rank="0.3000"
+             short_id="c.j.f.ConstructorDescriptor"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Decoder$BooleanDecoder"
+             rank="0.6000"
+             short_id="c.j.f.D..$BooleanDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Decoder$DoubleDecoder"
+             rank="0.6000"
+             short_id="c.j.f.D..$DoubleDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Decoder$FloatDecoder"
+             rank="0.6000"
+             short_id="c.j.f.D..$FloatDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Decoder$IntDecoder"
+             rank="0.6000"
+             short_id="c.j.f.D..$IntDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Decoder$LongDecoder"
+             rank="0.6000"
+             short_id="c.j.f.D..$LongDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Decoder$ShortDecoder"
+             rank="0.6000"
+             short_id="c.j.f.D..$ShortDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.DoubleAny"
+             rank="0.5000"
+             short_id="c.j.f.DoubleAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="green" name="EO_SCOM" rank="5"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.DoubleLazyAny"
+             rank="0.6000"
+             short_id="c.j.f.DoubleLazyAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.DynamicCodegen"
+             rank="0.2000"
+             short_id="c.j.f.DynamicCodegen"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.EmptyExtension"
+             rank="0.4500"
+             short_id="c.j.f.EmptyExtension"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.EncodeTo"
+             rank="0.2000"
+             short_id="c.j.f.EncodeTo"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Encoder$BooleanEncoder"
+             rank="0.5000"
+             short_id="c.j.f.E..$BooleanEncoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Encoder$DoubleEncoder"
+             rank="0.4500"
+             short_id="c.j.f.E..$DoubleEncoder"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Encoder$FloatEncoder"
+             rank="0.4500"
+             short_id="c.j.f.E..$FloatEncoder"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Encoder$IntEncoder"
+             rank="0.4500"
+             short_id="c.j.f.E..$IntEncoder"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Encoder$LongEncoder"
+             rank="0.4500"
+             short_id="c.j.f.E..$LongEncoder"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Encoder$ShortEncoder"
+             rank="0.4500"
+             short_id="c.j.f.E..$ShortEncoder"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Encoder$StringDoubleEncoder"
+             rank="0.4000"
+             short_id="c.j.f.E..$StringDoubleEncoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Encoder$StringFloatEncoder"
+             rank="0.4000"
+             short_id="c.j.f.E..$StringFloatEncoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Encoder$StringIntEncoder"
+             rank="0.4000"
+             short_id="c.j.f.E..$StringIntEncoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Encoder$StringLongEncoder"
+             rank="0.4000"
+             short_id="c.j.f.E..$StringLongEncoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Encoder$StringShortEncoder"
+             rank="0.4000"
+             short_id="c.j.f.E..$StringShortEncoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.FalseAny"
+             rank="0.8000"
+             short_id="c.j.f.FalseAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.FloatAny"
+             rank="0.5000"
+             short_id="c.j.f.FloatAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="green" name="EO_SCOM" rank="5"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.GenericsHelper"
+             rank="0.2000"
+             short_id="c.j.f.GenericsHelper"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.GenericsHelper$GenericArrayTypeImpl"
+             rank="0.4500"
+             short_id="c.j.f.G..$GenericArrayTypeImpl"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="green" name="EO_SCOM" rank="5"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.GenericsHelper$ParameterizedTypeImpl"
+             rank="0.4500"
+             short_id="c.j.f.G..$ParameterizedTypeImpl"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="yellow" name="EO_LCOM3" rank="3"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.GsonCompatibilityMode"
+             rank="0.7500"
+             short_id="c.j.f.GsonCompatibilityMode"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.GsonCompatibilityMode$Builder"
+             rank="0.7000"
+             short_id="c.j.f.G..$Builder"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.IntAny"
+             rank="0.5000"
+             short_id="c.j.f.IntAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="green" name="EO_SCOM" rank="5"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.IterImpl"
+             rank="0.2000"
+             short_id="c.j.f.IterImpl"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.IterImplArray"
+             rank="0.2000"
+             short_id="c.j.f.IterImplArray"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.IterImplForStreaming"
+             rank="0.2000"
+             short_id="c.j.f.IterImplForStreaming"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.IterImplForStreaming$numberChars"
+             rank="0.2000"
+             short_id="c.j.f.I..$numberChars"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.IterImplNumber"
+             rank="0.2000"
+             short_id="c.j.f.IterImplNumber"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.IterImplObject"
+             rank="0.2000"
+             short_id="c.j.f.IterImplObject"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.IterImplSkip"
+             rank="0.2000"
+             short_id="c.j.f.IterImplSkip"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.IterImplString"
+             rank="0.2000"
+             short_id="c.j.f.IterImplString"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.JacksonCompatibilityMode"
+             rank="0.6000"
+             short_id="c.j.f.JacksonCompatibilityMode"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.JacksonCompatibilityMode$Builder"
+             rank="0.4000"
+             short_id="c.j.f.J..$Builder"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.JdkDatetimeSupport"
+             rank="0.2000"
+             short_id="c.j.f.JdkDatetimeSupport"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.JsonException"
+             rank="0.2000"
+             short_id="c.j.f.JsonException"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.JsonIterator"
+             rank="0.7000"
+             short_id="c.j.f.JsonIterator"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.JsonIteratorPool"
+             rank="0.2000"
+             short_id="c.j.f.JsonIteratorPool"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.JsonStream"
+             rank="0.7000"
+             short_id="c.j.f.JsonStream"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.JsonStreamPool"
+             rank="0.2000"
+             short_id="c.j.f.JsonStreamPool"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.JsoniterSpi"
+             rank="0.2000"
+             short_id="c.j.f.JsoniterSpi"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.JsoniterSpi$TypeProperty"
+             rank="0.5500"
+             short_id="c.j.f.J..$TypeProperty"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="green" name="EO_SCOM" rank="5"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.LazyAny"
+             rank="0.7000"
+             short_id="c.j.f.LazyAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ListWrapperAny"
+             rank="0.7000"
+             short_id="c.j.f.ListWrapperAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ListWrapperAny$WrapperIterator"
+             rank="0.5500"
+             short_id="c.j.f.L..$WrapperIterator"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="yellow" name="EO_LCOM3" rank="3"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.LongAny"
+             rank="0.5000"
+             short_id="c.j.f.LongAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="green" name="EO_SCOM" rank="5"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.LongLazyAny"
+             rank="0.6000"
+             short_id="c.j.f.LongLazyAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MapKeyDecoders"
+             rank="0.2000"
+             short_id="c.j.f.MapKeyDecoders"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MapKeyDecoders$EnumKeyDecoder"
+             rank="0.4000"
+             short_id="c.j.f.M..$EnumKeyDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MapKeyDecoders$NumberKeyDecoder"
+             rank="0.4000"
+             short_id="c.j.f.M..$NumberKeyDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MapKeyDecoders$StringKeyDecoder"
+             rank="0.4000"
+             short_id="c.j.f.M..$StringKeyDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MapKeyEncoders"
+             rank="0.2000"
+             short_id="c.j.f.MapKeyEncoders"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MapKeyEncoders$DynamicKeyEncoder"
+             rank="0.4000"
+             short_id="c.j.f.M..$DynamicKeyEncoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MapKeyEncoders$NumberKeyEncoder"
+             rank="0.4000"
+             short_id="c.j.f.M..$NumberKeyEncoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MapKeyEncoders$StringKeyEncoder"
+             rank="0.4000"
+             short_id="c.j.f.M..$StringKeyEncoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MapWrapperAny"
+             rank="0.7000"
+             short_id="c.j.f.MapWrapperAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MapWrapperAny$WrapperIterator"
+             rank="0.5500"
+             short_id="c.j.f.M..$WrapperIterator"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MaybeEmptyArrayDecoder"
+             rank="0.4000"
+             short_id="c.j.f.MaybeEmptyArrayDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MaybeStringDoubleDecoder"
+             rank="0.4000"
+             short_id="c.j.f.MaybeStringDoubleDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MaybeStringFloatDecoder"
+             rank="0.4000"
+             short_id="c.j.f.MaybeStringFloatDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MaybeStringIntDecoder"
+             rank="0.4000"
+             short_id="c.j.f.MaybeStringIntDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MaybeStringLongDecoder"
+             rank="0.4000"
+             short_id="c.j.f.MaybeStringLongDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.MaybeStringShortDecoder"
+             rank="0.4000"
+             short_id="c.j.f.MaybeStringShortDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.NamingStrategySupport"
+             rank="0.2000"
+             short_id="c.j.f.NamingStrategySupport"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.NotFoundAny"
+             rank="0.8000"
+             short_id="c.j.f.NotFoundAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.NullAny"
+             rank="0.8000"
+             short_id="c.j.f.NullAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ObjectAny"
+             rank="0.6500"
+             short_id="c.j.f.ObjectAny"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ObjectAny$IteratorAdapter"
+             rank="0.4000"
+             short_id="c.j.f.O..$IteratorAdapter"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="yellow" name="EO_LCOM3" rank="3"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="yellow" name="EO_SCOM" rank="3"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ObjectLazyAny"
+             rank="0.7000"
+             short_id="c.j.f.ObjectLazyAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ObjectLazyAny$LazyIterator"
+             rank="0.5500"
+             short_id="c.j.f.O..$LazyIterator"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.OmitValue$False"
+             rank="0.4500"
+             short_id="c.j.f.O..$False"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.OmitValue$Null"
+             rank="0.4500"
+             short_id="c.j.f.O..$Null"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.OmitValue$Parsed"
+             rank="0.7000"
+             short_id="c.j.f.O..$Parsed"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.OmitValue$ZeroByte"
+             rank="0.4500"
+             short_id="c.j.f.O..$ZeroByte"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.OmitValue$ZeroChar"
+             rank="0.4500"
+             short_id="c.j.f.O..$ZeroChar"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.OmitValue$ZeroDouble"
+             rank="0.4500"
+             short_id="c.j.f.O..$ZeroDouble"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.OmitValue$ZeroFloat"
+             rank="0.4500"
+             short_id="c.j.f.O..$ZeroFloat"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.OmitValue$ZeroInt"
+             rank="0.4500"
+             short_id="c.j.f.O..$ZeroInt"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.OmitValue$ZeroLong"
+             rank="0.4500"
+             short_id="c.j.f.O..$ZeroLong"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.OmitValue$ZeroShort"
+             rank="0.4500"
+             short_id="c.j.f.O..$ZeroShort"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.PreciseFloatSupport"
+             rank="0.2000"
+             short_id="c.j.f.PreciseFloatSupport"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionArrayDecoder"
+             rank="0.4000"
+             short_id="c.j.f.ReflectionArrayDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionArrayEncoder"
+             rank="0.8000"
+             short_id="c.j.f.ReflectionArrayEncoder"
+             trust="0.3333333333333333">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionCollectionDecoder"
+             rank="0.5000"
+             short_id="c.j.f.ReflectionCollectionDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionCollectionEncoder"
+             rank="0.8000"
+             short_id="c.j.f.ReflectionCollectionEncoder"
+             trust="0.3333333333333333">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionDecoderFactory"
+             rank="0.2000"
+             short_id="c.j.f.ReflectionDecoderFactory"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionEncoderFactory"
+             rank="0.2000"
+             short_id="c.j.f.ReflectionEncoderFactory"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionEnumDecoder"
+             rank="0.4000"
+             short_id="c.j.f.ReflectionEnumDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionEnumEncoder"
+             rank="0.5500"
+             short_id="c.j.f.ReflectionEnumEncoder"
+             trust="0.3333333333333333">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionListEncoder"
+             rank="0.8000"
+             short_id="c.j.f.ReflectionListEncoder"
+             trust="0.3333333333333333">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionMapDecoder"
+             rank="0.5000"
+             short_id="c.j.f.ReflectionMapDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionMapEncoder"
+             rank="0.8500"
+             short_id="c.j.f.ReflectionMapEncoder"
+             trust="0.3333333333333333">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionObjectDecoder"
+             rank="0.4000"
+             short_id="c.j.f.ReflectionObjectDecoder"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionObjectDecoder$OnlyField"
+             rank="0.5000"
+             short_id="c.j.f.R..$OnlyField"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionObjectDecoder$WithCtor"
+             rank="0.5000"
+             short_id="c.j.f.R..$WithCtor"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionObjectDecoder$WithWrapper"
+             rank="0.5000"
+             short_id="c.j.f.R..$WithWrapper"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.ReflectionObjectEncoder"
+             rank="0.8500"
+             short_id="c.j.f.ReflectionObjectEncoder"
+             trust="0.3333333333333333">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.Slice"
+             rank="0.5000"
+             short_id="c.j.f.Slice"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="yellow" name="EO_LCOM3" rank="3"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.StaticCodegen"
+             rank="0.2000"
+             short_id="c.j.f.StaticCodegen"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.StreamImplNumber"
+             rank="0.2000"
+             short_id="c.j.f.StreamImplNumber"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.StreamImplString"
+             rank="0.2000"
+             short_id="c.j.f.StreamImplString"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.StringAny"
+             rank="0.5000"
+             short_id="c.j.f.StringAny"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="yellow" name="EO_LCOM3" rank="3"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.StringDoubleDecoder"
+             rank="0.4000"
+             short_id="c.j.f.StringDoubleDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.StringFloatDecoder"
+             rank="0.4000"
+             short_id="c.j.f.StringFloatDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.StringIntDecoder"
+             rank="0.4000"
+             short_id="c.j.f.StringIntDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.StringLazyAny"
+             rank="0.6000"
+             short_id="c.j.f.StringLazyAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.StringLongDecoder"
+             rank="0.4000"
+             short_id="c.j.f.StringLongDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.StringShortDecoder"
+             rank="0.4000"
+             short_id="c.j.f.StringShortDecoder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.TrueAny"
+             rank="0.8000"
+             short_id="c.j.f.TrueAny"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.TypeLiteral"
+             rank="0.7500"
+             short_id="c.j.f.TypeLiteral"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.UnwrapperDescriptor"
+             rank="0.2000"
+             short_id="c.j.f.UnwrapperDescriptor"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+      <class id="com.jsoniter.fuzzy.WrapperDescriptor"
+             rank="0.2000"
+             short_id="c.j.f.WrapperDescriptor"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+      </class>
+   </classes>
+</matrix>
