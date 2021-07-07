@@ -1,553 +1,574 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metric xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        date="2021-07-07T17:10:18.488796700Z"
+        date="2021-07-07T17:10:25.257685100Z"
         schema="xsd/skeleton.xsd"
         version="1.0-SNAPSHOT"
         xsi:noNamespaceSchemaLocation="xsd/metric.xsd">
-   <title>EO_LCOM3</title>
+   <title>EO_OCC</title>
    <description>Metric description</description>
    <app element="false"
         id="D:\Projects\HuaweiLab\jpeek\..\dl4j-examples\target\classes">
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.styletransfer">
-         <class color="red" element="false" id="NeuralStyleTransfer" value="0"/>
+         <class color="red"
+                element="false"
+                id="NeuralStyleTransfer"
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.quickstart.features.presavingdatasets">
-         <class color="red" element="false" id="PreSaveFirst" value="0"/>
+         <class color="red" element="false" id="PreSaveFirst" value="0.0"/>
          <class color="red"
                 element="false"
                 id="LoadPreSavedLenetMnistExample"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.quickstart.modeling.feedforward.regression">
-         <class color="red" element="false" id="ImageDrawer$FastRGB" value="0"/>
-         <class color="red" element="false" id="SumModel" value="0"/>
-         <class color="red" element="false" id="CSVDataModel" value="0"/>
-         <class color="red" element="false" id="MathFunctionsModel" value="0"/>
-         <class color="red" element="false" id="ImageDrawer" value="0"/>
+         <class color="red"
+                element="false"
+                id="ImageDrawer$FastRGB"
+                value="0.0"/>
+         <class color="red" element="false" id="SumModel" value="0.0"/>
+         <class color="red" element="false" id="CSVDataModel" value="0.0"/>
+         <class color="red" element="false" id="MathFunctionsModel" value="0.0"/>
+         <class color="red" element="false" id="ImageDrawer" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.charmodelling.generatetext">
-         <class color="red" element="false" id="GenerateTxtModel" value="0"/>
+         <class color="red" element="false" id="GenerateTxtModel" value="0.0"/>
          <class color="red"
                 element="false"
                 id="GenerateTxtCharCompGraphModel"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.wip.advanced.modelling.detectgender">
-         <class color="green" element="true" id="PredictGenderTest" value="1.2"/>
-         <class color="red" element="false" id="PredictGenderTrain" value="0"/>
-         <class color="green"
+         <class color="red" element="false" id="PredictGenderTest" value="0.0"/>
+         <class color="red" element="false" id="PredictGenderTrain" value="0.0"/>
+         <class color="yellow"
                 element="true"
                 id="GenderRecordReader"
-                value="0.9444444444444445"/>
+                value="0.5"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.quickstart.features.userinterface">
-         <class color="red" element="false" id="UIStorageExample" value="0"/>
+         <class color="red" element="false" id="UIStorageExample" value="0.0"/>
          <class color="red"
                 element="false"
                 id="UIStorageExample_Java7"
-                value="0"/>
-         <class color="red" element="false" id="RemoteUIExample" value="0"/>
-         <class color="red" element="false" id="BasicUIExample" value="0"/>
+                value="0.0"/>
+         <class color="red" element="false" id="RemoteUIExample" value="0.0"/>
+         <class color="red" element="false" id="BasicUIExample" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.densenet.model">
          <class color="green"
                 element="true"
                 id="DenseNetBuilder"
-                value="0.8333333333333334"/>
-         <class color="red" element="false" id="DenseNetModel" value="0"/>
+                value="0.6666666666666666"/>
+         <class color="red" element="false" id="DenseNetModel" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.textclassification.customcorpusword2vec">
-         <class color="red" element="false" id="TrainNews" value="0"/>
-         <class color="red" element="false" id="TestNews" value="0"/>
-         <class color="red" element="false" id="PrepareWordVector" value="0"/>
-         <class color="green"
+         <class color="red" element="false" id="TrainNews" value="0.0"/>
+         <class color="red" element="false" id="TestNews" value="0.0"/>
+         <class color="red" element="false" id="PrepareWordVector" value="0.0"/>
+         <class color="red"
                 element="true"
                 id="NewsIterator"
-                value="0.9846153846153847"/>
+                value="0.26666666666666666"/>
          <class color="green"
-                element="true"
+                element="false"
                 id="NewsIterator$Builder"
-                value="0.738095238095238"/>
+                value="1.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.features.customizingdl4j.lossfunctions">
-         <class color="red" element="false" id="CustomLossUsageEx" value="0"/>
-         <class color="green"
-                element="true"
+         <class color="red" element="false" id="CustomLossUsageEx" value="0.0"/>
+         <class color="red"
+                element="false"
                 id="CustomLossDefinition"
-                value="1.125"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.wip.quickstart.features.knn">
-         <class color="red" element="false" id="NearestNeighbor" value="0"/>
+         <class color="red" element="false" id="NearestNeighbor" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.captcharecognition.dataclasses">
          <class color="green"
                 element="true"
                 id="MultiRecordDataSetIterator"
-                value="0.8571428571428571"/>
+                value="0.7142857142857143"/>
          <class color="green"
-                element="true"
+                element="false"
                 id="MulRecordDataLoader"
-                value="1.0357142857142858"/>
+                value="1.0"/>
       </package>
       <package element="false" id="org.deeplearning4j.examples.utils">
          <class color="red"
                 element="false"
                 id="VAEPlotUtil$MNISTLatentSpaceVisualizer"
-                value="0"/>
-         <class color="red" element="false" id="VAEPlotUtil" value="0"/>
-         <class color="red" element="false" id="DataUtilities" value="0"/>
-         <class color="red" element="false" id="PlotUtil" value="0"/>
+                value="0.0"/>
+         <class color="red" element="false" id="VAEPlotUtil" value="0.0"/>
+         <class color="red" element="false" id="DataUtilities" value="0.0"/>
+         <class color="red" element="false" id="PlotUtil" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.features.customizingdl4j.activationfunctions">
          <class color="red"
                 element="false"
                 id="CustomActivationUsageEx"
-                value="0"/>
+                value="0.0"/>
          <class color="red"
                 element="false"
                 id="CustomActivationDefinition"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.wip.advanced.modelling.mixturedensitynetwork">
-         <class color="green"
+         <class color="red"
                 element="true"
                 id="GaussianMixtureIterator"
-                value="1.027777777777778"/>
+                value="0.3333333333333333"/>
          <class color="red"
                 element="false"
                 id="MixtureDensityNetwork"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.seq2seq">
-         <class color="green"
+         <class color="yellow"
                 element="true"
                 id="CustomSequenceIterator"
-                value="0.9797979797979798"/>
-         <class color="green" element="true" id="Seq2SeqPredicter" value="1.0"/>
+                value="0.4444444444444444"/>
+         <class color="green" element="false" id="Seq2SeqPredicter" value="1.0"/>
          <class color="red"
                 element="false"
                 id="AdditionModelWithSeq2Seq"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.features.transferlearning.editlastlayer.presave">
-         <class color="red" element="false" id="FeaturizedPreSave" value="0"/>
-         <class color="red" element="false" id="FitFromFeaturized" value="0"/>
+         <class color="red" element="false" id="FeaturizedPreSave" value="0.0"/>
+         <class color="red" element="false" id="FitFromFeaturized" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.wip.quickstart.modelling">
-         <class color="red" element="false" id="AnimalClassifier" value="0"/>
+         <class color="red" element="false" id="AnimalClassifier" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.alphagozero">
-         <class color="red" element="false" id="AlphaGoZeroTrainer" value="0"/>
+         <class color="red" element="false" id="AlphaGoZeroTrainer" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.quickstart.modeling.variationalautoencoder">
-         <class color="red" element="false" id="VaeMNIST2dPlots" value="0"/>
-         <class color="red" element="false" id="VaeMNISTAnomaly" value="0"/>
+         <class color="red" element="false" id="VaeMNIST2dPlots" value="0.0"/>
+         <class color="red" element="false" id="VaeMNISTAnomaly" value="0.0"/>
          <class color="red"
                 element="false"
                 id="VaeMNIST2dPlots$PlottingListener"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.captcharecognition">
          <class color="red"
                 element="false"
                 id="MultiDigitNumberRecognition"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.features.transferlearning.finetuneonly">
          <class color="red"
                 element="false"
                 id="FineTuneFromBlockFour"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.features.externalerrors">
          <class color="red"
                 element="false"
                 id="MultiLayerNetworkExternalErrors"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.alphagozero.dualresidual">
          <class color="green"
                 element="true"
                 id="DL4JAlphaGoZeroBuilder"
-                value="0.625"/>
-         <class color="red" element="false" id="DualResnetModel" value="0"/>
+                value="0.75"/>
+         <class color="red" element="false" id="DualResnetModel" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.quickstart.features.tsne">
-         <class color="red" element="false" id="TSNEStandardExample" value="0"/>
+         <class color="red"
+                element="false"
+                id="TSNEStandardExample"
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.charmodelling.utils">
-         <class color="green"
+         <class color="yellow"
                 element="true"
                 id="CharacterIterator"
-                value="0.9243697478991597"/>
+                value="0.5882352941176471"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.embeddingsfromcorpus.word2vec">
          <class color="red"
                 element="false"
                 id="Word2VecRawTextExample"
-                value="0"/>
+                value="0.0"/>
          <class color="red"
                 element="false"
                 id="Word2VecUptrainingExample"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.densenet">
-         <class color="red" element="false" id="DenseNetMain" value="0"/>
+         <class color="red" element="false" id="DenseNetMain" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.wip.advanced.modelling.melodl4j">
-         <class color="red" element="false" id="MelodyStrings" value="0"/>
+         <class color="red" element="false" id="MelodyStrings" value="0.0"/>
          <class color="red"
                 element="false"
                 id="MelodyModelingExample"
-                value="0"/>
-         <class color="green"
-                element="true"
-                id="Note"
-                value="0.7352941176470589"/>
-         <class color="red" element="false" id="PlayMelodyStrings" value="0"/>
+                value="0.0"/>
+         <class color="green" element="false" id="Note" value="1.0"/>
+         <class color="red" element="false" id="PlayMelodyStrings" value="0.0"/>
          <class color="green"
                 element="false"
                 id="MidiMelodyExtractor"
-                value="1.5813953488372092"/>
+                value="1.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.quickstart.features.userinterface.util">
-         <class color="red" element="false" id="UIExampleUtils" value="0"/>
+         <class color="red" element="false" id="UIExampleUtils" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.features.transferlearning.iterators">
          <class color="red"
                 element="false"
                 id="FlowerDataSetIteratorFeaturized"
-                value="0"/>
+                value="0.0"/>
          <class color="red"
                 element="false"
                 id="FlowerDataSetIterator"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.textclassification.pretrainedword2vec">
-         <class color="green"
+         <class color="red"
                 element="true"
                 id="SentimentExampleIterator"
-                value="0.9485294117647058"/>
+                value="0.35294117647058826"/>
          <class color="red"
                 element="false"
                 id="ImdbReviewClassificationRNN"
-                value="0"/>
+                value="0.0"/>
          <class color="red"
                 element="false"
                 id="ImdbReviewClassificationCNN"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.embeddingsfromcorpus.paragraphvectors">
          <class color="red"
                 element="false"
                 id="ParagraphVectorsTextExample"
-                value="0"/>
-         <class color="red"
-                element="true"
+                value="0.0"/>
+         <class color="green"
+                element="false"
                 id="ParagraphVectorsClassifierExample"
-                value="0.19999999999999996"/>
+                value="1.0"/>
          <class color="red"
                 element="false"
                 id="ParagraphVectorsInferenceExample"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.features.transferlearning.editfrombottleneck">
          <class color="red"
                 element="false"
                 id="EditAtBottleneckOthersFrozen"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.quickstart.modeling.feedforward.classification">
-         <class color="red" element="false" id="MoonClassifier" value="0"/>
-         <class color="red" element="false" id="IrisClassifier" value="0"/>
-         <class color="red" element="false" id="SaturnClassifier" value="0"/>
-         <class color="red" element="false" id="MNISTSingleLayer" value="0"/>
-         <class color="red" element="false" id="LinearDataClassifier" value="0"/>
-         <class color="red" element="false" id="MNISTDoubleLayer" value="0"/>
-         <class color="red" element="false" id="ModelXOR" value="0"/>
+         <class color="red" element="false" id="MoonClassifier" value="0.0"/>
+         <class color="red" element="false" id="IrisClassifier" value="0.0"/>
+         <class color="red" element="false" id="SaturnClassifier" value="0.0"/>
+         <class color="red" element="false" id="MNISTSingleLayer" value="0.0"/>
+         <class color="red"
+                element="false"
+                id="LinearDataClassifier"
+                value="0.0"/>
+         <class color="red" element="false" id="MNISTDoubleLayer" value="0.0"/>
+         <class color="red" element="false" id="ModelXOR" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.quickstart.modeling.recurrent">
-         <class color="red" element="false" id="MemorizeSequence" value="0"/>
+         <class color="red" element="false" id="MemorizeSequence" value="0.0"/>
          <class color="red"
                 element="false"
                 id="VideoFrameClassifier$VideoPreProcessor"
-                value="0"/>
+                value="0.0"/>
          <class color="red"
                 element="false"
                 id="UCISequenceClassification"
-                value="0"/>
-         <class color="red" element="false" id="VideoFrameClassifier" value="0"/>
-         <class color="red" element="false" id="RNNEmbedding" value="0"/>
+                value="0.0"/>
+         <class color="red"
+                element="false"
+                id="VideoFrameClassifier"
+                value="0.0"/>
+         <class color="red" element="false" id="RNNEmbedding" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.sequenceprediction">
-         <class color="green"
+         <class color="yellow"
                 element="true"
                 id="LotteryDataSetIterator"
-                value="0.7916666666666666"/>
+                value="0.5833333333333334"/>
          <class color="red"
                 element="false"
                 id="LotteryCombinationDataSetReader"
-                value="0"/>
+                value="0.0"/>
          <class color="red"
                 element="false"
                 id="LotteryCharacterSequenceDataSetReader"
-                value="0"/>
+                value="0.0"/>
          <class color="red"
                 element="false"
                 id="TrainLotteryModelSeqPrediction"
-                value="0"/>
-         <class color="green" element="true" id="BaseDataSetReader" value="0.9"/>
+                value="0.0"/>
+         <class color="yellow"
+                element="true"
+                id="BaseDataSetReader"
+                value="0.6"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.quickstart.modeling.feedforward.unsupervised">
          <class color="red"
                 element="false"
                 id="MNISTAutoencoder$MNISTVisualizer"
-                value="0"/>
-         <class color="red" element="false" id="MNISTAutoencoder" value="0"/>
+                value="0.0"/>
+         <class color="red" element="false" id="MNISTAutoencoder" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.features.customizingdl4j.layers.layer">
-         <class color="green" element="true" id="CustomLayer" value="0.75"/>
-         <class color="green"
-                element="true"
+         <class color="red" element="true" id="CustomLayer" value="0.25"/>
+         <class color="red"
+                element="false"
                 id="CustomLayer$Builder"
-                value="1.0"/>
+                value="0.0"/>
          <class color="red"
                 element="false"
                 id="CustomLayerImplementation"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.features.inference">
          <class color="red"
                 element="false"
                 id="ParallelInferenceExample"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.sequenceanomalydetection">
          <class color="red"
                 element="false"
                 id="SequenceAnomalyDetection"
-                value="0"/>
+                value="0.0"/>
          <class color="green"
                 element="true"
                 id="AnomalyDataSetIterator"
-                value="0.8"/>
+                value="0.7692307692307693"/>
          <class color="green"
                 element="true"
                 id="AnomalyDataSetReader"
-                value="0.8958333333333334"/>
+                value="0.8333333333333334"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.embeddingsfromcorpus.paragraphvectors.tools">
-         <class color="red" element="false" id="LabelSeeker" value="0"/>
-         <class color="red" element="false" id="MeansBuilder" value="0"/>
+         <class color="red" element="false" id="LabelSeeker" value="0.0"/>
+         <class color="red" element="false" id="MeansBuilder" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.features.transferlearning.editlastlayer">
          <class color="red"
                 element="false"
                 id="EditLastLayerOthersFrozen"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.features.customizingdl4j.layers">
-         <class color="red" element="false" id="CustomLayerUsageEx" value="0"/>
+         <class color="red" element="false" id="CustomLayerUsageEx" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.quickstart.features.earlystopping">
-         <class color="red" element="false" id="EarlyStoppingMNIST" value="0"/>
+         <class color="red" element="false" id="EarlyStoppingMNIST" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.quickstart.features.modelsavingloading">
          <class color="red"
                 element="false"
                 id="SaveLoadMultiLayerNetwork"
-                value="0"/>
+                value="0.0"/>
          <class color="red"
                 element="false"
                 id="SaveLoadComputationGraph"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.objectdetection">
          <class color="red"
                 element="false"
                 id="TinyYoloHouseNumberDetection"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.densenet.imageUtils">
-         <class color="green" element="true" id="NoiseTransform" value="1.0"/>
-         <class color="green" element="true" id="BlurTransform" value="1.0"/>
+         <class color="red" element="false" id="NoiseTransform" value="0.0"/>
+         <class color="red" element="false" id="BlurTransform" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.quickstart.features.classimbalance">
          <class color="red"
                 element="false"
                 id="WeightedLossFunctionExample"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.modelling.embeddingsfromcorpus.sequencevectors">
          <class color="red"
                 element="false"
                 id="SequenceVectorsTextExample"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.wip.advanced.modelling.encoderdecoder">
-         <class color="green"
-                element="true"
-                id="CorpusProcessor"
-                value="1.0285714285714287"/>
+         <class color="red" element="true" id="CorpusProcessor" value="0.2"/>
          <class color="green"
                 element="true"
                 id="CorpusIterator"
-                value="0.9166666666666666"/>
-         <class color="red" element="false" id="EncoderDecoderLSTM" value="0"/>
+                value="0.6666666666666666"/>
+         <class color="red" element="false" id="EncoderDecoderLSTM" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.quickstart.modeling.convolution">
-         <class color="red" element="false" id="LeNetMNISTReLu" value="0"/>
-         <class color="red" element="false" id="LeNetMNIST" value="0"/>
-         <class color="red" element="false" id="CenterLossLeNetMNIST" value="0"/>
-         <class color="red" element="false" id="CIFARClassifier" value="0"/>
+         <class color="red" element="false" id="LeNetMNISTReLu" value="0.0"/>
+         <class color="red" element="false" id="LeNetMNIST" value="0.0"/>
+         <class color="red"
+                element="false"
+                id="CenterLossLeNetMNIST"
+                value="0.0"/>
+         <class color="red" element="false" id="CIFARClassifier" value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.quickstart.modeling.feedforward.regression.mathfunctions">
-         <class color="red" element="false" id="SawtoothMathFunction" value="0"/>
-         <class color="red" element="false" id="SinMathFunction" value="0"/>
-         <class color="red" element="false" id="SinXDivXMathFunction" value="0"/>
+         <class color="red"
+                element="false"
+                id="SawtoothMathFunction"
+                value="0.0"/>
+         <class color="red" element="false" id="SinMathFunction" value="0.0"/>
+         <class color="red"
+                element="false"
+                id="SinXDivXMathFunction"
+                value="0.0"/>
          <class color="red"
                 element="false"
                 id="SquareWaveMathFunction"
-                value="0"/>
+                value="0.0"/>
          <class color="red"
                 element="false"
                 id="TriangleWaveMathFunction"
-                value="0"/>
+                value="0.0"/>
       </package>
       <package element="false"
                id="org.deeplearning4j.examples.advanced.features.metadata">
          <class color="red"
                 element="false"
                 id="CSVExampleEvaluationMetaData"
-                value="0"/>
+                value="0.0"/>
       </package>
    </app>
    <colors high="0.6" low="0.4">[0.4000 .. 0.6000]</colors>
-   <min>0.19999999999999996</min>
-   <max>1.2</max>
-   <bars xmlns:xs="http://www.w3.org/2001/XMLSchema"><!--count: 123, steps: 32; all: 26; min: 0.2; max: 1.2; delta: 0.03125-->
+   <min>0.2</min>
+   <max>0.8333333333333334</max>
+   <bars xmlns:xs="http://www.w3.org/2001/XMLSchema"><!--count: 123, steps: 32; all: 16; min: 0.2; max: 0.8333333; delta: 0.019791666-->
       <bar color="red" x="0">1</bar>
-      <!--step: 0, left: 0.2, right: 0.23125-->
+      <!--step: 0, left: 0.2, right: 0.21979167-->
       <bar color="yellow" x="0.03125">0</bar>
-      <!--step: 1, left: 0.23125, right: 0.2625-->
-      <bar color="yellow" x="0.0625">0</bar>
-      <!--step: 2, left: 0.2625, right: 0.29375-->
-      <bar color="yellow" x="0.09375">0</bar>
-      <!--step: 3, left: 0.29375, right: 0.325-->
+      <!--step: 1, left: 0.21979167, right: 0.23958334-->
+      <bar color="red" x="0.0625">1</bar>
+      <!--step: 2, left: 0.23958334, right: 0.259375-->
+      <bar color="red" x="0.09375">1</bar>
+      <!--step: 3, left: 0.259375, right: 0.27916667-->
       <bar color="yellow" x="0.125">0</bar>
-      <!--step: 4, left: 0.325, right: 0.35625-->
+      <!--step: 4, left: 0.27916667, right: 0.29895833-->
       <bar color="yellow" x="0.15625">0</bar>
-      <!--step: 5, left: 0.35625, right: 0.3875-->
-      <bar color="yellow" x="0.1875">0</bar>
-      <!--step: 6, left: 0.3875, right: 0.41875-->
-      <bar color="yellow" x="0.21875">0</bar>
-      <!--step: 7, left: 0.41875, right: 0.45-->
+      <!--step: 5, left: 0.29895833, right: 0.31875-->
+      <bar color="red" x="0.1875">1</bar>
+      <!--step: 6, left: 0.31875, right: 0.3385417-->
+      <bar color="red" x="0.21875">1</bar>
+      <!--step: 7, left: 0.3385417, right: 0.35833335-->
       <bar color="yellow" x="0.25">0</bar>
-      <!--step: 8, left: 0.45, right: 0.48125-->
+      <!--step: 8, left: 0.35833335, right: 0.378125-->
       <bar color="yellow" x="0.28125">0</bar>
-      <!--step: 9, left: 0.48125, right: 0.5125-->
+      <!--step: 9, left: 0.378125, right: 0.39791667-->
       <bar color="yellow" x="0.3125">0</bar>
-      <!--step: 10, left: 0.5125, right: 0.54375-->
+      <!--step: 10, left: 0.39791667, right: 0.41770834-->
       <bar color="yellow" x="0.34375">0</bar>
-      <!--step: 11, left: 0.54375, right: 0.575-->
-      <bar color="yellow" x="0.375">0</bar>
-      <!--step: 12, left: 0.575, right: 0.60625-->
-      <bar color="green" x="0.40625">1</bar>
-      <!--step: 13, left: 0.60625, right: 0.6375-->
+      <!--step: 11, left: 0.41770834, right: 0.4375-->
+      <bar color="yellow" x="0.375">1</bar>
+      <!--step: 12, left: 0.4375, right: 0.45729166-->
+      <bar color="yellow" x="0.40625">0</bar>
+      <!--step: 13, left: 0.45729166, right: 0.47708333-->
       <bar color="yellow" x="0.4375">0</bar>
-      <!--step: 14, left: 0.6375, right: 0.66875-->
-      <bar color="yellow" x="0.46875">0</bar>
-      <!--step: 15, left: 0.66875, right: 0.7-->
+      <!--step: 14, left: 0.47708333, right: 0.496875-->
+      <bar color="yellow" x="0.46875">1</bar>
+      <!--step: 15, left: 0.496875, right: 0.51666665-->
       <bar color="yellow" x="0.5">0</bar>
-      <!--step: 16, left: 0.7, right: 0.73125-->
-      <bar color="green" x="0.53125">3</bar>
-      <!--step: 17, left: 0.73125, right: 0.7625-->
-      <bar color="green" x="0.5625">1</bar>
-      <!--step: 18, left: 0.7625, right: 0.79375-->
-      <bar color="green" x="0.59375">1</bar>
-      <!--step: 19, left: 0.79375, right: 0.825-->
-      <bar color="green" x="0.625">1</bar>
-      <!--step: 20, left: 0.825, right: 0.85625-->
-      <bar color="green" x="0.65625">1</bar>
-      <!--step: 21, left: 0.85625, right: 0.8875-->
-      <bar color="green" x="0.6875">3</bar>
-      <!--step: 22, left: 0.8875, right: 0.91875-->
-      <bar color="green" x="0.71875">3</bar>
-      <!--step: 23, left: 0.91875, right: 0.95-->
-      <bar color="green" x="0.75">1</bar>
-      <!--step: 24, left: 0.95, right: 0.98125-->
-      <bar color="green" x="0.78125">5</bar>
-      <!--step: 25, left: 0.98125, right: 1.0125-->
-      <bar color="green" x="0.8125">3</bar>
-      <!--step: 26, left: 1.0125, right: 1.04375-->
-      <bar color="yellow" x="0.84375">0</bar>
-      <!--step: 27, left: 1.04375, right: 1.075-->
-      <bar color="yellow" x="0.875">0</bar>
-      <!--step: 28, left: 1.075, right: 1.10625-->
-      <bar color="green" x="0.90625">1</bar>
-      <!--step: 29, left: 1.10625, right: 1.1375-->
+      <!--step: 16, left: 0.51666665, right: 0.5364583-->
+      <bar color="yellow" x="0.53125">0</bar>
+      <!--step: 17, left: 0.5364583, right: 0.55625-->
+      <bar color="yellow" x="0.5625">0</bar>
+      <!--step: 18, left: 0.55625, right: 0.57604164-->
+      <bar color="yellow" x="0.59375">2</bar>
+      <!--step: 19, left: 0.57604164, right: 0.5958333-->
+      <bar color="yellow" x="0.625">1</bar>
+      <!--step: 20, left: 0.5958333, right: 0.615625-->
+      <bar color="yellow" x="0.65625">0</bar>
+      <!--step: 21, left: 0.615625, right: 0.6354167-->
+      <bar color="yellow" x="0.6875">0</bar>
+      <!--step: 22, left: 0.6354167, right: 0.65520835-->
+      <bar color="green" x="0.71875">2</bar>
+      <!--step: 23, left: 0.65520835, right: 0.675-->
+      <bar color="yellow" x="0.75">0</bar>
+      <!--step: 24, left: 0.675, right: 0.6947917-->
+      <bar color="green" x="0.78125">1</bar>
+      <!--step: 25, left: 0.6947917, right: 0.71458334-->
+      <bar color="yellow" x="0.8125">0</bar>
+      <!--step: 26, left: 0.71458334, right: 0.734375-->
+      <bar color="green" x="0.84375">1</bar>
+      <!--step: 27, left: 0.734375, right: 0.75416666-->
+      <bar color="green" x="0.875">1</bar>
+      <!--step: 28, left: 0.75416666, right: 0.7739583-->
+      <bar color="yellow" x="0.90625">0</bar>
+      <!--step: 29, left: 0.7739583, right: 0.79375-->
       <bar color="yellow" x="0.9375">0</bar>
-      <!--step: 30, left: 1.1375, right: 1.16875-->
+      <!--step: 30, left: 0.79375, right: 0.81354165-->
       <bar color="green" x="0.96875">1</bar>
-      <!--step: 31, left: 1.16875, right: 1.2-->
+      <!--step: 31, left: 0.81354165, right: 0.8333333-->
    </bars>
    <statistics>
       <total>123</total>
-      <elements>26</elements>
-      <mean>0.8939174105180892</mean>
-      <sigma>0.18802307361704956</sigma>
-      <variance>0.03535267621240244</variance>
-      <defects>0.15384615384615385</defects>
+      <elements>16</elements>
+      <mean>0.5324460874093226</mean>
+      <sigma>0.19603748283635997</sigma>
+      <variance>0.03843069467681613</variance>
+      <defects>0.4375</defects>
    </statistics>
 </metric>

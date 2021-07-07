@@ -1,12 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <matrix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        date="2021-07-07T16:33:40.196065600Z"
+        date="2021-07-07T17:10:27.635105100Z"
         version="1.0-SNAPSHOT"
         xsi:noNamespaceSchemaLocation="xsd/matrix.xsd">
    <classes>
-      <class id="com.jsoniter.fuzzy.Any"
-             rank="0.7000"
-             short_id="c.j.f.Any"
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.AdditionModelWithSeq2Seq"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.AdditionModelWithSeq2Seq"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.AlphaGoZeroTrainer"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.AlphaGoZeroTrainer"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.AnimalClassifier"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.AnimalClassifier"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.AnomalyDataSetIterator"
+             rank="0.6364"
+             short_id="o.d.e.a.m.s.AnomalyDataSetIterator"
              trust="0.5">
          <metric color="red" name="EO_CAMC" rank="1"/>
          <metric color="green" name="EO_LCOM1" rank="5"/>
@@ -15,11 +63,78 @@
          <metric color="green" name="EO_LCOM4" rank="5"/>
          <metric color="red" name="EO_LCOM5" rank="1"/>
          <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="green" name="EO_OCC" rank="5"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.ArrayAny"
-             rank="0.5000"
-             short_id="c.j.f.ArrayAny"
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.AnomalyDataSetReader"
+             rank="0.7818"
+             short_id="o.d.e.a.m.s.AnomalyDataSetReader"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="green" name="EO_OCC" rank="5"/>
+         <metric color="green" name="EO_PCC" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.BaseDataSetReader"
+             rank="0.7091"
+             short_id="o.d.e.a.m.s.BaseDataSetReader"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="yellow" name="EO_OCC" rank="3"/>
+         <metric color="yellow" name="EO_PCC" rank="3"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.BasicUIExample"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.BasicUIExample"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.BlurTransform"
+             rank="0.5636"
+             short_id="o.d.e.a.m.s.BlurTransform"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CIFARClassifier"
+             rank="0.2727"
+             short_id="o.d.e.a.m.s.CIFARClassifier"
              trust="0.5">
          <metric color="red" name="EO_CAMC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
@@ -27,25 +142,1247 @@
          <metric color="red" name="EO_LCOM3" rank="1"/>
          <metric color="green" name="EO_LCOM4" rank="5"/>
          <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CSVDataModel"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.CSVDataModel"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CSVExampleEvaluationMetaData"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.CSVExampleEvaluationMetaData"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CenterLossLeNetMNIST"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.CenterLossLeNetMNIST"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CharacterIterator"
+             rank="0.6000"
+             short_id="o.d.e.a.m.s.CharacterIterator"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
          <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="yellow" name="EO_OCC" rank="3"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CorpusIterator"
+             rank="0.6727"
+             short_id="o.d.e.a.m.s.CorpusIterator"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="green" name="EO_OCC" rank="5"/>
+         <metric color="yellow" name="EO_PCC" rank="3"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CorpusProcessor"
+             rank="0.6364"
+             short_id="o.d.e.a.m.s.CorpusProcessor"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CustomActivationDefinition"
+             rank="0.4545"
+             short_id="o.d.e.a.m.s.CustomActivationDefinition"
+             trust="0.3333333333333333">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CustomActivationUsageEx"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.CustomActivationUsageEx"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CustomLayer"
+             rank="0.4909"
+             short_id="o.d.e.a.m.s.CustomLayer"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CustomLayer$Builder"
+             rank="0.5636"
+             short_id="o.d.e.a.m.s.C..$Builder"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CustomLayerImplementation"
+             rank="0.3818"
+             short_id="o.d.e.a.m.s.CustomLayerImplementation"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CustomLayerUsageEx"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.CustomLayerUsageEx"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CustomLossDefinition"
+             rank="0.5273"
+             short_id="o.d.e.a.m.s.CustomLossDefinition"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CustomLossUsageEx"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.CustomLossUsageEx"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.CustomSequenceIterator"
+             rank="0.7091"
+             short_id="o.d.e.a.m.s.CustomSequenceIterator"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="yellow" name="EO_OCC" rank="3"/>
+         <metric color="yellow" name="EO_PCC" rank="3"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.DL4JAlphaGoZeroBuilder"
+             rank="0.5636"
+             short_id="o.d.e.a.m.s.DL4JAlphaGoZeroBuilder"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="green" name="EO_OCC" rank="5"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="yellow" name="EO_TCC" rank="3"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.DataUtilities"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.DataUtilities"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.DenseNetBuilder"
+             rank="0.6000"
+             short_id="o.d.e.a.m.s.DenseNetBuilder"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="green" name="EO_OCC" rank="5"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.DenseNetMain"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.DenseNetMain"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.DenseNetModel"
+             rank="0.4182"
+             short_id="o.d.e.a.m.s.DenseNetModel"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.DualResnetModel"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.DualResnetModel"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.EarlyStoppingMNIST"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.EarlyStoppingMNIST"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.EditAtBottleneckOthersFrozen"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.EditAtBottleneckOthersFrozen"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.EditLastLayerOthersFrozen"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.EditLastLayerOthersFrozen"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.EncoderDecoderLSTM"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.EncoderDecoderLSTM"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.FeaturizedPreSave"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.FeaturizedPreSave"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.FineTuneFromBlockFour"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.FineTuneFromBlockFour"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.FitFromFeaturized"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.FitFromFeaturized"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.FlowerDataSetIterator"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.FlowerDataSetIterator"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.FlowerDataSetIteratorFeaturized"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.FlowerDataSetIteratorFeaturized"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.GaussianMixtureIterator"
+             rank="0.6364"
+             short_id="o.d.e.a.m.s.GaussianMixtureIterator"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.GenderRecordReader"
+             rank="0.6000"
+             short_id="o.d.e.a.m.s.GenderRecordReader"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="yellow" name="EO_OCC" rank="3"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.GenerateTxtCharCompGraphModel"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.GenerateTxtCharCompGraphModel"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.GenerateTxtModel"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.GenerateTxtModel"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.ImageDrawer"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.ImageDrawer"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.ImageDrawer$FastRGB"
+             rank="0.3455"
+             short_id="o.d.e.a.m.s.I..$FastRGB"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.ImdbReviewClassificationCNN"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.ImdbReviewClassificationCNN"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.ImdbReviewClassificationRNN"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.ImdbReviewClassificationRNN"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.IrisClassifier"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.IrisClassifier"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.LabelSeeker"
+             rank="0.3455"
+             short_id="o.d.e.a.m.s.LabelSeeker"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.LeNetMNIST"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.LeNetMNIST"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.LeNetMNISTReLu"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.LeNetMNISTReLu"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.LinearDataClassifier"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.LinearDataClassifier"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.LoadPreSavedLenetMnistExample"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.LoadPreSavedLenetMnistExample"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.LotteryCharacterSequenceDataSetReader"
+             rank="0.3455"
+             short_id="o.d.e.a.m.s.LotteryCharacterSequenceDataSetReader"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.LotteryCombinationDataSetReader"
+             rank="0.3455"
+             short_id="o.d.e.a.m.s.LotteryCombinationDataSetReader"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.LotteryDataSetIterator"
+             rank="0.6000"
+             short_id="o.d.e.a.m.s.LotteryDataSetIterator"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="yellow" name="EO_OCC" rank="3"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MNISTAutoencoder"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.MNISTAutoencoder"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MNISTAutoencoder$MNISTVisualizer"
+             rank="0.3091"
+             short_id="o.d.e.a.m.s.M..$MNISTVisualizer"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MNISTDoubleLayer"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.MNISTDoubleLayer"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MNISTSingleLayer"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.MNISTSingleLayer"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MathFunctionsModel"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.MathFunctionsModel"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MeansBuilder"
+             rank="0.3455"
+             short_id="o.d.e.a.m.s.MeansBuilder"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MelodyModelingExample"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.MelodyModelingExample"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MelodyStrings"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.MelodyStrings"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MemorizeSequence"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.MemorizeSequence"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MidiMelodyExtractor"
+             rank="0.8545"
+             short_id="o.d.e.a.m.s.MidiMelodyExtractor"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="green" name="EO_OCC" rank="5"/>
+         <metric color="green" name="EO_PCC" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="green" name="EO_TCC" rank="5"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MixtureDensityNetwork"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.MixtureDensityNetwork"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.ModelXOR"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.ModelXOR"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MoonClassifier"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.MoonClassifier"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MulRecordDataLoader"
+             rank="0.7455"
+             short_id="o.d.e.a.m.s.MulRecordDataLoader"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="green" name="EO_OCC" rank="5"/>
+         <metric color="green" name="EO_PCC" rank="5"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MultiDigitNumberRecognition"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.MultiDigitNumberRecognition"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MultiLayerNetworkExternalErrors"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.MultiLayerNetworkExternalErrors"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.MultiRecordDataSetIterator"
+             rank="0.6727"
+             short_id="o.d.e.a.m.s.MultiRecordDataSetIterator"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="green" name="EO_OCC" rank="5"/>
+         <metric color="yellow" name="EO_PCC" rank="3"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.NearestNeighbor"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.NearestNeighbor"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.NeuralStyleTransfer"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.NeuralStyleTransfer"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.NewsIterator"
+             rank="0.6364"
+             short_id="o.d.e.a.m.s.NewsIterator"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.NewsIterator$Builder"
+             rank="0.6727"
+             short_id="o.d.e.a.m.s.N..$Builder"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="green" name="EO_OCC" rank="5"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="yellow" name="EO_TCC" rank="3"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.NoiseTransform"
+             rank="0.5636"
+             short_id="o.d.e.a.m.s.NoiseTransform"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="yellow" name="EO_LCOM2" rank="3"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.Note"
+             rank="0.6727"
+             short_id="o.d.e.a.m.s.Note"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="green" name="EO_OCC" rank="5"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="yellow" name="EO_TCC" rank="3"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.ParagraphVectorsClassifierExample"
+             rank="0.6364"
+             short_id="o.d.e.a.m.s.ParagraphVectorsClassifierExample"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="green" name="EO_LCOM5" rank="5"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="green" name="EO_OCC" rank="5"/>
+         <metric color="green" name="EO_PCC" rank="5"/>
          <metric color="green" name="EO_SCOM" rank="5"/>
+         <metric color="green" name="EO_TCC" rank="5"/>
       </class>
-      <class id="com.jsoniter.fuzzy.ArrayLazyAny"
-             rank="0.7000"
-             short_id="c.j.f.ArrayLazyAny"
-             trust="0.5">
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.ParagraphVectorsInferenceExample"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.ParagraphVectorsInferenceExample"
+             trust="1">
          <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
          <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.ArrayLazyAny$LazyIterator"
-             rank="0.6500"
-             short_id="c.j.f.A..$LazyIterator"
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.ParagraphVectorsTextExample"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.ParagraphVectorsTextExample"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.ParallelInferenceExample"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.ParallelInferenceExample"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.PlayMelodyStrings"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.PlayMelodyStrings"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.PlotUtil"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.PlotUtil"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.PreSaveFirst"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.PreSaveFirst"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.PredictGenderTest"
+             rank="0.5273"
+             short_id="o.d.e.a.m.s.PredictGenderTest"
              trust="0.3333333333333333">
          <metric color="red" name="EO_CAMC" rank="1"/>
          <metric color="green" name="EO_LCOM1" rank="5"/>
@@ -54,1194 +1391,30 @@
          <metric color="green" name="EO_LCOM4" rank="5"/>
          <metric color="green" name="EO_LCOM5" rank="5"/>
          <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.ArrayWrapperAny"
-             rank="0.7000"
-             short_id="c.j.f.ArrayWrapperAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ArrayWrapperAny$WrapperIterator"
-             rank="0.6500"
-             short_id="c.j.f.A..$WrapperIterator"
-             trust="0.3333333333333333">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="yellow" name="EO_LCOM2" rank="3"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Base64"
-             rank="0.2000"
-             short_id="c.j.f.Base64"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Base64FloatSupport"
-             rank="0.2000"
-             short_id="c.j.f.Base64FloatSupport"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Base64Support"
-             rank="0.2000"
-             short_id="c.j.f.Base64Support"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Binding"
-             rank="0.7000"
-             short_id="c.j.f.Binding"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ClassDescriptor"
-             rank="0.6000"
-             short_id="c.j.f.ClassDescriptor"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ClassInfo"
-             rank="0.2000"
-             short_id="c.j.f.ClassInfo"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Codegen"
-             rank="0.2000"
-             short_id="c.j.f.Codegen"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.CodegenAccess"
-             rank="0.2000"
-             short_id="c.j.f.CodegenAccess"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.CodegenAccess$StaticCodegenTarget"
-             rank="0.2000"
-             short_id="c.j.f.C..$StaticCodegenTarget"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.CodegenImplArray"
-             rank="0.2000"
-             short_id="c.j.f.CodegenImplArray"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.CodegenImplEnum"
-             rank="0.2000"
-             short_id="c.j.f.CodegenImplEnum"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.CodegenImplMap"
-             rank="0.2000"
-             short_id="c.j.f.CodegenImplMap"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.CodegenImplNative"
-             rank="0.2000"
-             short_id="c.j.f.CodegenImplNative"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.CodegenImplObject"
-             rank="0.2000"
-             short_id="c.j.f.CodegenImplObject"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.CodegenImplObjectHash"
-             rank="0.2000"
-             short_id="c.j.f.CodegenImplObjectHash"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.CodegenImplObjectStrict"
-             rank="0.2000"
-             short_id="c.j.f.CodegenImplObjectStrict"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.CodegenResult"
-             rank="0.7000"
-             short_id="c.j.f.CodegenResult"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Config"
-             rank="0.7000"
-             short_id="c.j.f.Config"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Config$Builder"
-             rank="0.6000"
-             short_id="c.j.f.C..$Builder"
-             trust="0.3333333333333333">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="yellow" name="EO_LCOM2" rank="3"/>
-         <metric color="yellow" name="EO_LCOM3" rank="3"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ConstructorDescriptor"
-             rank="0.3000"
-             short_id="c.j.f.ConstructorDescriptor"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Decoder$BooleanDecoder"
-             rank="0.6000"
-             short_id="c.j.f.D..$BooleanDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Decoder$DoubleDecoder"
-             rank="0.6000"
-             short_id="c.j.f.D..$DoubleDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Decoder$FloatDecoder"
-             rank="0.6000"
-             short_id="c.j.f.D..$FloatDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Decoder$IntDecoder"
-             rank="0.6000"
-             short_id="c.j.f.D..$IntDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Decoder$LongDecoder"
-             rank="0.6000"
-             short_id="c.j.f.D..$LongDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Decoder$ShortDecoder"
-             rank="0.6000"
-             short_id="c.j.f.D..$ShortDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.DoubleAny"
-             rank="0.5000"
-             short_id="c.j.f.DoubleAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="green" name="EO_SCOM" rank="5"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.DoubleLazyAny"
-             rank="0.6000"
-             short_id="c.j.f.DoubleLazyAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.DynamicCodegen"
-             rank="0.2000"
-             short_id="c.j.f.DynamicCodegen"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.EmptyExtension"
-             rank="0.4500"
-             short_id="c.j.f.EmptyExtension"
-             trust="0.3333333333333333">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="yellow" name="EO_NHD" rank="3"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.EncodeTo"
-             rank="0.2000"
-             short_id="c.j.f.EncodeTo"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Encoder$BooleanEncoder"
-             rank="0.5000"
-             short_id="c.j.f.E..$BooleanEncoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Encoder$DoubleEncoder"
-             rank="0.4500"
-             short_id="c.j.f.E..$DoubleEncoder"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Encoder$FloatEncoder"
-             rank="0.4500"
-             short_id="c.j.f.E..$FloatEncoder"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Encoder$IntEncoder"
-             rank="0.4500"
-             short_id="c.j.f.E..$IntEncoder"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Encoder$LongEncoder"
-             rank="0.4500"
-             short_id="c.j.f.E..$LongEncoder"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Encoder$ShortEncoder"
-             rank="0.4500"
-             short_id="c.j.f.E..$ShortEncoder"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Encoder$StringDoubleEncoder"
-             rank="0.4000"
-             short_id="c.j.f.E..$StringDoubleEncoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Encoder$StringFloatEncoder"
-             rank="0.4000"
-             short_id="c.j.f.E..$StringFloatEncoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Encoder$StringIntEncoder"
-             rank="0.4000"
-             short_id="c.j.f.E..$StringIntEncoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Encoder$StringLongEncoder"
-             rank="0.4000"
-             short_id="c.j.f.E..$StringLongEncoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Encoder$StringShortEncoder"
-             rank="0.4000"
-             short_id="c.j.f.E..$StringShortEncoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.FalseAny"
-             rank="0.8000"
-             short_id="c.j.f.FalseAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.FloatAny"
-             rank="0.5000"
-             short_id="c.j.f.FloatAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="green" name="EO_SCOM" rank="5"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.GenericsHelper"
-             rank="0.2000"
-             short_id="c.j.f.GenericsHelper"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.GenericsHelper$GenericArrayTypeImpl"
-             rank="0.4500"
-             short_id="c.j.f.G..$GenericArrayTypeImpl"
-             trust="0.3333333333333333">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="yellow" name="EO_NHD" rank="3"/>
-         <metric color="green" name="EO_SCOM" rank="5"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.GenericsHelper$ParameterizedTypeImpl"
-             rank="0.4500"
-             short_id="c.j.f.G..$ParameterizedTypeImpl"
-             trust="0.3333333333333333">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="yellow" name="EO_LCOM3" rank="3"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.GsonCompatibilityMode"
-             rank="0.7500"
-             short_id="c.j.f.GsonCompatibilityMode"
-             trust="0.3333333333333333">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="yellow" name="EO_NHD" rank="3"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.GsonCompatibilityMode$Builder"
-             rank="0.7000"
-             short_id="c.j.f.G..$Builder"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.IntAny"
-             rank="0.5000"
-             short_id="c.j.f.IntAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="green" name="EO_SCOM" rank="5"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.IterImpl"
-             rank="0.2000"
-             short_id="c.j.f.IterImpl"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.IterImplArray"
-             rank="0.2000"
-             short_id="c.j.f.IterImplArray"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.IterImplForStreaming"
-             rank="0.2000"
-             short_id="c.j.f.IterImplForStreaming"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.IterImplForStreaming$numberChars"
-             rank="0.2000"
-             short_id="c.j.f.I..$numberChars"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.IterImplNumber"
-             rank="0.2000"
-             short_id="c.j.f.IterImplNumber"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.IterImplObject"
-             rank="0.2000"
-             short_id="c.j.f.IterImplObject"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.IterImplSkip"
-             rank="0.2000"
-             short_id="c.j.f.IterImplSkip"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.IterImplString"
-             rank="0.2000"
-             short_id="c.j.f.IterImplString"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.JacksonCompatibilityMode"
-             rank="0.6000"
-             short_id="c.j.f.JacksonCompatibilityMode"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.JacksonCompatibilityMode$Builder"
-             rank="0.4000"
-             short_id="c.j.f.J..$Builder"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.JdkDatetimeSupport"
-             rank="0.2000"
-             short_id="c.j.f.JdkDatetimeSupport"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.JsonException"
-             rank="0.2000"
-             short_id="c.j.f.JsonException"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.JsonIterator"
-             rank="0.7000"
-             short_id="c.j.f.JsonIterator"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.JsonIteratorPool"
-             rank="0.2000"
-             short_id="c.j.f.JsonIteratorPool"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.JsonStream"
-             rank="0.7000"
-             short_id="c.j.f.JsonStream"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.JsonStreamPool"
-             rank="0.2000"
-             short_id="c.j.f.JsonStreamPool"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.JsoniterSpi"
-             rank="0.2000"
-             short_id="c.j.f.JsoniterSpi"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.JsoniterSpi$TypeProperty"
-             rank="0.5500"
-             short_id="c.j.f.J..$TypeProperty"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="green" name="EO_SCOM" rank="5"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.LazyAny"
-             rank="0.7000"
-             short_id="c.j.f.LazyAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ListWrapperAny"
-             rank="0.7000"
-             short_id="c.j.f.ListWrapperAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ListWrapperAny$WrapperIterator"
-             rank="0.5500"
-             short_id="c.j.f.L..$WrapperIterator"
-             trust="0.3333333333333333">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="yellow" name="EO_LCOM3" rank="3"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.LongAny"
-             rank="0.5000"
-             short_id="c.j.f.LongAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="green" name="EO_SCOM" rank="5"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.LongLazyAny"
-             rank="0.6000"
-             short_id="c.j.f.LongLazyAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MapKeyDecoders"
-             rank="0.2000"
-             short_id="c.j.f.MapKeyDecoders"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MapKeyDecoders$EnumKeyDecoder"
-             rank="0.4000"
-             short_id="c.j.f.M..$EnumKeyDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MapKeyDecoders$NumberKeyDecoder"
-             rank="0.4000"
-             short_id="c.j.f.M..$NumberKeyDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MapKeyDecoders$StringKeyDecoder"
-             rank="0.4000"
-             short_id="c.j.f.M..$StringKeyDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MapKeyEncoders"
-             rank="0.2000"
-             short_id="c.j.f.MapKeyEncoders"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MapKeyEncoders$DynamicKeyEncoder"
-             rank="0.4000"
-             short_id="c.j.f.M..$DynamicKeyEncoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MapKeyEncoders$NumberKeyEncoder"
-             rank="0.4000"
-             short_id="c.j.f.M..$NumberKeyEncoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MapKeyEncoders$StringKeyEncoder"
-             rank="0.4000"
-             short_id="c.j.f.M..$StringKeyEncoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MapWrapperAny"
-             rank="0.7000"
-             short_id="c.j.f.MapWrapperAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MapWrapperAny$WrapperIterator"
-             rank="0.5500"
-             short_id="c.j.f.M..$WrapperIterator"
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.PredictGenderTrain"
+             rank="0.3091"
+             short_id="o.d.e.a.m.s.PredictGenderTrain"
              trust="0.3333333333333333">
          <metric color="red" name="EO_CAMC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="yellow" name="EO_LCOM2" rank="3"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MaybeEmptyArrayDecoder"
-             rank="0.4000"
-             short_id="c.j.f.MaybeEmptyArrayDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
          <metric color="red" name="EO_LCOM3" rank="1"/>
          <metric color="green" name="EO_LCOM4" rank="5"/>
          <metric color="red" name="EO_LCOM5" rank="1"/>
          <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.MaybeStringDoubleDecoder"
-             rank="0.4000"
-             short_id="c.j.f.MaybeStringDoubleDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MaybeStringFloatDecoder"
-             rank="0.4000"
-             short_id="c.j.f.MaybeStringFloatDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MaybeStringIntDecoder"
-             rank="0.4000"
-             short_id="c.j.f.MaybeStringIntDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MaybeStringLongDecoder"
-             rank="0.4000"
-             short_id="c.j.f.MaybeStringLongDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.MaybeStringShortDecoder"
-             rank="0.4000"
-             short_id="c.j.f.MaybeStringShortDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.NamingStrategySupport"
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.PrepareWordVector"
              rank="0.2000"
-             short_id="c.j.f.NamingStrategySupport"
+             short_id="o.d.e.a.m.s.PrepareWordVector"
              trust="1">
          <metric color="red" name="EO_CAMC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
@@ -1250,219 +1423,14 @@
          <metric color="red" name="EO_LCOM4" rank="1"/>
          <metric color="red" name="EO_LCOM5" rank="1"/>
          <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.NotFoundAny"
-             rank="0.8000"
-             short_id="c.j.f.NotFoundAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.NullAny"
-             rank="0.8000"
-             short_id="c.j.f.NullAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ObjectAny"
-             rank="0.6500"
-             short_id="c.j.f.ObjectAny"
-             trust="0.3333333333333333">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="yellow" name="EO_LCOM2" rank="3"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ObjectAny$IteratorAdapter"
-             rank="0.4000"
-             short_id="c.j.f.O..$IteratorAdapter"
-             trust="0.3333333333333333">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="yellow" name="EO_LCOM3" rank="3"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="yellow" name="EO_SCOM" rank="3"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ObjectLazyAny"
-             rank="0.7000"
-             short_id="c.j.f.ObjectLazyAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ObjectLazyAny$LazyIterator"
-             rank="0.5500"
-             short_id="c.j.f.O..$LazyIterator"
-             trust="0.3333333333333333">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="yellow" name="EO_LCOM2" rank="3"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.OmitValue$False"
-             rank="0.4500"
-             short_id="c.j.f.O..$False"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.OmitValue$Null"
-             rank="0.4500"
-             short_id="c.j.f.O..$Null"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.OmitValue$Parsed"
-             rank="0.7000"
-             short_id="c.j.f.O..$Parsed"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="yellow" name="EO_LCOM2" rank="3"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.OmitValue$ZeroByte"
-             rank="0.4500"
-             short_id="c.j.f.O..$ZeroByte"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.OmitValue$ZeroChar"
-             rank="0.4500"
-             short_id="c.j.f.O..$ZeroChar"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.OmitValue$ZeroDouble"
-             rank="0.4500"
-             short_id="c.j.f.O..$ZeroDouble"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.OmitValue$ZeroFloat"
-             rank="0.4500"
-             short_id="c.j.f.O..$ZeroFloat"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.OmitValue$ZeroInt"
-             rank="0.4500"
-             short_id="c.j.f.O..$ZeroInt"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.OmitValue$ZeroLong"
-             rank="0.4500"
-             short_id="c.j.f.O..$ZeroLong"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.OmitValue$ZeroShort"
-             rank="0.4500"
-             short_id="c.j.f.O..$ZeroShort"
-             trust="0.3333333333333333">
-         <metric color="yellow" name="EO_CAMC" rank="3"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.PreciseFloatSupport"
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.RNNEmbedding"
              rank="0.2000"
-             short_id="c.j.f.PreciseFloatSupport"
+             short_id="o.d.e.a.m.s.RNNEmbedding"
              trust="1">
          <metric color="red" name="EO_CAMC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
@@ -1471,24 +1439,110 @@
          <metric color="red" name="EO_LCOM4" rank="1"/>
          <metric color="red" name="EO_LCOM5" rank="1"/>
          <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.ReflectionArrayDecoder"
-             rank="0.4000"
-             short_id="c.j.f.ReflectionArrayDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.RemoteUIExample"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.RemoteUIExample"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.SaturnClassifier"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.SaturnClassifier"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.SaveLoadComputationGraph"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.SaveLoadComputationGraph"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.SaveLoadMultiLayerNetwork"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.SaveLoadMultiLayerNetwork"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.SawtoothMathFunction"
+             rank="0.3818"
+             short_id="o.d.e.a.m.s.SawtoothMathFunction"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
          <metric color="red" name="EO_LCOM3" rank="1"/>
          <metric color="green" name="EO_LCOM4" rank="5"/>
          <metric color="red" name="EO_LCOM5" rank="1"/>
          <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.ReflectionArrayEncoder"
-             rank="0.8000"
-             short_id="c.j.f.ReflectionArrayEncoder"
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.SentimentExampleIterator"
+             rank="0.5636"
+             short_id="o.d.e.a.m.s.SentimentExampleIterator"
+             trust="0.5">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="green" name="EO_NHD" rank="5"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.Seq2SeqPredicter"
+             rank="0.7818"
+             short_id="o.d.e.a.m.s.Seq2SeqPredicter"
              trust="0.3333333333333333">
          <metric color="green" name="EO_CAMC" rank="5"/>
          <metric color="green" name="EO_LCOM1" rank="5"/>
@@ -1497,37 +1551,302 @@
          <metric color="green" name="EO_LCOM4" rank="5"/>
          <metric color="green" name="EO_LCOM5" rank="5"/>
          <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="green" name="EO_OCC" rank="5"/>
+         <metric color="green" name="EO_PCC" rank="5"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.ReflectionCollectionDecoder"
-             rank="0.5000"
-             short_id="c.j.f.ReflectionCollectionDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.SequenceAnomalyDetection"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.SequenceAnomalyDetection"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.SequenceVectorsTextExample"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.SequenceVectorsTextExample"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.SinMathFunction"
+             rank="0.3818"
+             short_id="o.d.e.a.m.s.SinMathFunction"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
          <metric color="red" name="EO_LCOM3" rank="1"/>
          <metric color="green" name="EO_LCOM4" rank="5"/>
          <metric color="red" name="EO_LCOM5" rank="1"/>
          <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.ReflectionCollectionEncoder"
-             rank="0.8000"
-             short_id="c.j.f.ReflectionCollectionEncoder"
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.SinXDivXMathFunction"
+             rank="0.3818"
+             short_id="o.d.e.a.m.s.SinXDivXMathFunction"
              trust="0.3333333333333333">
-         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
          <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.SquareWaveMathFunction"
+             rank="0.3818"
+             short_id="o.d.e.a.m.s.SquareWaveMathFunction"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.SumModel"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.SumModel"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.TSNEStandardExample"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.TSNEStandardExample"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.TestNews"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.TestNews"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.TinyYoloHouseNumberDetection"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.TinyYoloHouseNumberDetection"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.TrainLotteryModelSeqPrediction"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.TrainLotteryModelSeqPrediction"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.TrainNews"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.TrainNews"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.TriangleWaveMathFunction"
+             rank="0.3818"
+             short_id="o.d.e.a.m.s.TriangleWaveMathFunction"
+             trust="0.3333333333333333">
+         <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="green" name="EO_LCOM1" rank="5"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.UCISequenceClassification"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.UCISequenceClassification"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.UIExampleUtils"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.UIExampleUtils"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.UIStorageExample"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.UIStorageExample"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.UIStorageExample_Java7"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.UIStorageExample_Java7"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.VAEPlotUtil"
+             rank="0.2000"
+             short_id="o.d.e.a.m.s.VAEPlotUtil"
+             trust="1">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="red" name="EO_LCOM4" rank="1"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.VAEPlotUtil$MNISTLatentSpaceVisualizer"
+             rank="0.3091"
+             short_id="o.d.e.a.m.s.V..$MNISTLatentSpaceVisualizer"
+             trust="0.3333333333333333">
+         <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="yellow" name="EO_LCOM2" rank="3"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
          <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="yellow" name="EO_NHD" rank="3"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.ReflectionDecoderFactory"
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.VaeMNIST2dPlots"
              rank="0.2000"
-             short_id="c.j.f.ReflectionDecoderFactory"
+             short_id="o.d.e.a.m.s.VaeMNIST2dPlots"
              trust="1">
          <metric color="red" name="EO_CAMC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
@@ -1536,11 +1855,30 @@
          <metric color="red" name="EO_LCOM4" rank="1"/>
          <metric color="red" name="EO_LCOM5" rank="1"/>
          <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.ReflectionEncoderFactory"
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.VaeMNIST2dPlots$PlottingListener"
+             rank="0.3455"
+             short_id="o.d.e.a.m.s.V..$PlottingListener"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.VaeMNISTAnomaly"
              rank="0.2000"
-             short_id="c.j.f.ReflectionEncoderFactory"
+             short_id="o.d.e.a.m.s.VaeMNISTAnomaly"
              trust="1">
          <metric color="red" name="EO_CAMC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
@@ -1549,154 +1887,14 @@
          <metric color="red" name="EO_LCOM4" rank="1"/>
          <metric color="red" name="EO_LCOM5" rank="1"/>
          <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.ReflectionEnumDecoder"
-             rank="0.4000"
-             short_id="c.j.f.ReflectionEnumDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ReflectionEnumEncoder"
-             rank="0.5500"
-             short_id="c.j.f.ReflectionEnumEncoder"
-             trust="0.3333333333333333">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="yellow" name="EO_NHD" rank="3"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ReflectionListEncoder"
-             rank="0.8000"
-             short_id="c.j.f.ReflectionListEncoder"
-             trust="0.3333333333333333">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="yellow" name="EO_LCOM2" rank="3"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="yellow" name="EO_NHD" rank="3"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ReflectionMapDecoder"
-             rank="0.5000"
-             short_id="c.j.f.ReflectionMapDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ReflectionMapEncoder"
-             rank="0.8500"
-             short_id="c.j.f.ReflectionMapEncoder"
-             trust="0.3333333333333333">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="yellow" name="EO_NHD" rank="3"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ReflectionObjectDecoder"
-             rank="0.4000"
-             short_id="c.j.f.ReflectionObjectDecoder"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ReflectionObjectDecoder$OnlyField"
-             rank="0.5000"
-             short_id="c.j.f.R..$OnlyField"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ReflectionObjectDecoder$WithCtor"
-             rank="0.5000"
-             short_id="c.j.f.R..$WithCtor"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ReflectionObjectDecoder$WithWrapper"
-             rank="0.5000"
-             short_id="c.j.f.R..$WithWrapper"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.ReflectionObjectEncoder"
-             rank="0.8500"
-             short_id="c.j.f.ReflectionObjectEncoder"
-             trust="0.3333333333333333">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="yellow" name="EO_NHD" rank="3"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.Slice"
-             rank="0.5000"
-             short_id="c.j.f.Slice"
-             trust="0.3333333333333333">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="yellow" name="EO_LCOM2" rank="3"/>
-         <metric color="yellow" name="EO_LCOM3" rank="3"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.StaticCodegen"
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.VideoFrameClassifier"
              rank="0.2000"
-             short_id="c.j.f.StaticCodegen"
+             short_id="o.d.e.a.m.s.VideoFrameClassifier"
              trust="1">
          <metric color="red" name="EO_CAMC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
@@ -1705,11 +1903,30 @@
          <metric color="red" name="EO_LCOM4" rank="1"/>
          <metric color="red" name="EO_LCOM5" rank="1"/>
          <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.StreamImplNumber"
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.VideoFrameClassifier$VideoPreProcessor"
+             rank="0.3455"
+             short_id="o.d.e.a.m.s.V..$VideoPreProcessor"
+             trust="0.5">
+         <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_LCOM1" rank="1"/>
+         <metric color="red" name="EO_LCOM2" rank="1"/>
+         <metric color="red" name="EO_LCOM3" rank="1"/>
+         <metric color="green" name="EO_LCOM4" rank="5"/>
+         <metric color="red" name="EO_LCOM5" rank="1"/>
+         <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
+         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
+      </class>
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.WeightedLossFunctionExample"
              rank="0.2000"
-             short_id="c.j.f.StreamImplNumber"
+             short_id="o.d.e.a.m.s.WeightedLossFunctionExample"
              trust="1">
          <metric color="red" name="EO_CAMC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
@@ -1718,11 +1935,14 @@
          <metric color="red" name="EO_LCOM4" rank="1"/>
          <metric color="red" name="EO_LCOM5" rank="1"/>
          <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.StreamImplString"
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.Word2VecRawTextExample"
              rank="0.2000"
-             short_id="c.j.f.StreamImplString"
+             short_id="o.d.e.a.m.s.Word2VecRawTextExample"
              trust="1">
          <metric color="red" name="EO_CAMC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
@@ -1731,128 +1951,14 @@
          <metric color="red" name="EO_LCOM4" rank="1"/>
          <metric color="red" name="EO_LCOM5" rank="1"/>
          <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
-      <class id="com.jsoniter.fuzzy.StringAny"
-             rank="0.5000"
-             short_id="c.j.f.StringAny"
-             trust="0.3333333333333333">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="yellow" name="EO_LCOM2" rank="3"/>
-         <metric color="yellow" name="EO_LCOM3" rank="3"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.StringDoubleDecoder"
-             rank="0.4000"
-             short_id="c.j.f.StringDoubleDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.StringFloatDecoder"
-             rank="0.4000"
-             short_id="c.j.f.StringFloatDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.StringIntDecoder"
-             rank="0.4000"
-             short_id="c.j.f.StringIntDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.StringLazyAny"
-             rank="0.6000"
-             short_id="c.j.f.StringLazyAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.StringLongDecoder"
-             rank="0.4000"
-             short_id="c.j.f.StringLongDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.StringShortDecoder"
-             rank="0.4000"
-             short_id="c.j.f.StringShortDecoder"
-             trust="0.5">
-         <metric color="green" name="EO_CAMC" rank="5"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.TrueAny"
-             rank="0.8000"
-             short_id="c.j.f.TrueAny"
-             trust="0.5">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="green" name="EO_NHD" rank="5"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.TypeLiteral"
-             rank="0.7500"
-             short_id="c.j.f.TypeLiteral"
-             trust="0.3333333333333333">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="green" name="EO_LCOM1" rank="5"/>
-         <metric color="green" name="EO_LCOM2" rank="5"/>
-         <metric color="green" name="EO_LCOM3" rank="5"/>
-         <metric color="green" name="EO_LCOM4" rank="5"/>
-         <metric color="green" name="EO_LCOM5" rank="5"/>
-         <metric color="yellow" name="EO_NHD" rank="3"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.UnwrapperDescriptor"
+      <class id="org.deeplearning4j.examples.advanced.modelling.styletransfer.Word2VecUptrainingExample"
              rank="0.2000"
-             short_id="c.j.f.UnwrapperDescriptor"
+             short_id="o.d.e.a.m.s.Word2VecUptrainingExample"
              trust="1">
          <metric color="red" name="EO_CAMC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
@@ -1861,20 +1967,10 @@
          <metric color="red" name="EO_LCOM4" rank="1"/>
          <metric color="red" name="EO_LCOM5" rank="1"/>
          <metric color="red" name="EO_NHD" rank="1"/>
+         <metric color="red" name="EO_OCC" rank="1"/>
+         <metric color="red" name="EO_PCC" rank="1"/>
          <metric color="red" name="EO_SCOM" rank="1"/>
-      </class>
-      <class id="com.jsoniter.fuzzy.WrapperDescriptor"
-             rank="0.2000"
-             short_id="c.j.f.WrapperDescriptor"
-             trust="1">
-         <metric color="red" name="EO_CAMC" rank="1"/>
-         <metric color="red" name="EO_LCOM1" rank="1"/>
-         <metric color="red" name="EO_LCOM2" rank="1"/>
-         <metric color="red" name="EO_LCOM3" rank="1"/>
-         <metric color="red" name="EO_LCOM4" rank="1"/>
-         <metric color="red" name="EO_LCOM5" rank="1"/>
-         <metric color="red" name="EO_NHD" rank="1"/>
-         <metric color="red" name="EO_SCOM" rank="1"/>
+         <metric color="red" name="EO_TCC" rank="1"/>
       </class>
    </classes>
 </matrix>
