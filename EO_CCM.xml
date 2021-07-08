@@ -1,212 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metric xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        date="2021-07-08T05:21:57.928449800Z"
+        date="2021-07-08T05:21:57.960364400Z"
         schema="xsd/skeleton.xsd"
         version="1.0-SNAPSHOT"
         xsi:noNamespaceSchemaLocation="xsd/metric.xsd">
-   <title>EO_OCC</title>
+   <title>EO_CCM</title>
    <description>Metric description</description>
    <app element="false"
         id="D:\Projects\HuaweiLab\jpeek\..\TestClasses\TestClasses">
       <package element="false" id="">
-         <class color="red" element="true" id="ImmutableNode" value="0.25"/>
-         <class color="red" element="true" id="MutableTree" value="0.25"/>
-         <class color="yellow"
+         <class color="red" element="true" id="ImmutableNode" value="0.025"/>
+         <class color="red" element="true" id="MutableTree" value="0.025"/>
+         <class color="red"
                 element="false"
                 id="MutableNode"
-                value="0.5714285714285714"/>
+                value="0.17857142857142858"/>
          <class color="red"
                 element="true"
                 id="AbstractTree"
-                value="0.3333333333333333"/>
-         <class color="yellow" element="true" id="ImmutableTree" value="0.5"/>
+                value="0.02857142857142857"/>
+         <class color="red" element="true" id="ImmutableTree" value="0.1"/>
       </package>
       <package element="false" id="com.github.javaparser.generator.core.utils">
-         <class color="red" element="false" id="CodeUtils" value="0.0"/>
+         <class color="red" element="false" id="CodeUtils" value="-1"/>
       </package>
       <package element="false" id="com.github.javaparser.generator.core.other">
-         <class color="red" element="false" id="TokenKindGenerator" value="0.0"/>
+         <class color="red" element="false" id="TokenKindGenerator" value="-1"/>
          <class color="red"
                 element="false"
                 id="GrammarLetterGenerator"
-                value="0.0"/>
-         <class color="red" element="false" id="BndGenerator" value="0.0"/>
+                value="-1"/>
+         <class color="red" element="false" id="BndGenerator" value="-1"/>
       </package>
       <package element="false" id="com.github.javaparser.generator.core.node">
          <class color="red"
                 element="false"
                 id="NodeModifierGenerator"
-                value="0.0"/>
-         <class color="red" element="false" id="AcceptGenerator" value="0.0"/>
+                value="-1"/>
+         <class color="red" element="false" id="AcceptGenerator" value="-1"/>
          <class color="red"
                 element="false"
                 id="GetMetaModelGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="ReplaceMethodGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="RemoveMethodGenerator"
-                value="0.0"/>
-         <class color="red" element="false" id="PropertyGenerator" value="0.0"/>
-         <class color="red" element="false" id="CloneGenerator" value="0.0"/>
+                value="-1"/>
+         <class color="red" element="true" id="PropertyGenerator" value="0.0"/>
+         <class color="red" element="false" id="CloneGenerator" value="-1"/>
          <class color="red"
                 element="false"
                 id="TypeCastingGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="MainConstructorGenerator"
-                value="0.0"/>
+                value="-1"/>
       </package>
       <package element="false" id="com.github.javaparser.generator">
-         <class color="red" element="false" id="Generator" value="0.0"/>
-         <class color="red" element="false" id="NodeGenerator" value="0.0"/>
-         <class color="red" element="false" id="VisitorGenerator" value="0.0"/>
+         <class color="red" element="true" id="Generator" value="0.0"/>
+         <class color="red" element="true" id="NodeGenerator" value="0.15"/>
+         <class color="red"
+                element="true"
+                id="VisitorGenerator"
+                value="0.16666666666666666"/>
       </package>
       <package element="false" id="com.github.javaparser.generator.core.visitor">
          <class color="red"
                 element="false"
                 id="VoidVisitorWithDefaultsGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="ObjectIdentityEqualsVisitorGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="HashCodeVisitorGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="VoidVisitorGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="GenericVisitorGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="GenericVisitorAdapterGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="NoCommentEqualsVisitorGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="ModifierVisitorGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="VoidVisitorAdapterGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="CloneVisitorGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="GenericVisitorWithDefaultsGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="EqualsVisitorGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="GenericListVisitorAdapterGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="NoCommentHashCodeVisitorGenerator"
-                value="0.0"/>
+                value="-1"/>
          <class color="red"
                 element="false"
                 id="ObjectIdentityHashCodeVisitorGenerator"
-                value="0.0"/>
+                value="-1"/>
       </package>
       <package element="false" id="com.github.javaparser.generator.core">
-         <class color="red" element="false" id="CoreGenerator" value="0.0"/>
+         <class color="red" element="false" id="CoreGenerator" value="-1"/>
       </package>
    </app>
    <colors high="0.6" low="0.4">[0.4000 .. 0.6000]</colors>
-   <min>0.25</min>
-   <max>0.5</max>
-   <bars xmlns:xs="http://www.w3.org/2001/XMLSchema"><!--count: 37, steps: 32; all: 4; min: 0.25; max: 0.5; delta: 0.0078125-->
+   <min>0</min>
+   <max>0.16666666666666666</max>
+   <bars xmlns:xs="http://www.w3.org/2001/XMLSchema"><!--count: 37, steps: 32; all: 8; min: 0; max: 0.16666667; delta: 0.0052083335-->
       <bar color="red" x="0">2</bar>
-      <!--step: 0, left: 0.25, right: 0.2578125-->
+      <!--step: 0, left: 0, right: 0.0052083335-->
       <bar color="yellow" x="0.03125">0</bar>
-      <!--step: 1, left: 0.2578125, right: 0.265625-->
+      <!--step: 1, left: 0.0052083335, right: 0.010416667-->
       <bar color="yellow" x="0.0625">0</bar>
-      <!--step: 2, left: 0.265625, right: 0.2734375-->
+      <!--step: 2, left: 0.010416667, right: 0.015625-->
       <bar color="yellow" x="0.09375">0</bar>
-      <!--step: 3, left: 0.2734375, right: 0.28125-->
-      <bar color="yellow" x="0.125">0</bar>
-      <!--step: 4, left: 0.28125, right: 0.2890625-->
-      <bar color="yellow" x="0.15625">0</bar>
-      <!--step: 5, left: 0.2890625, right: 0.296875-->
+      <!--step: 3, left: 0.015625, right: 0.020833334-->
+      <bar color="red" x="0.125">2</bar>
+      <!--step: 4, left: 0.020833334, right: 0.026041668-->
+      <bar color="red" x="0.15625">1</bar>
+      <!--step: 5, left: 0.026041668, right: 0.03125-->
       <bar color="yellow" x="0.1875">0</bar>
-      <!--step: 6, left: 0.296875, right: 0.3046875-->
+      <!--step: 6, left: 0.03125, right: 0.036458336-->
       <bar color="yellow" x="0.21875">0</bar>
-      <!--step: 7, left: 0.3046875, right: 0.3125-->
+      <!--step: 7, left: 0.036458336, right: 0.041666668-->
       <bar color="yellow" x="0.25">0</bar>
-      <!--step: 8, left: 0.3125, right: 0.3203125-->
+      <!--step: 8, left: 0.041666668, right: 0.046875-->
       <bar color="yellow" x="0.28125">0</bar>
-      <!--step: 9, left: 0.3203125, right: 0.328125-->
-      <bar color="red" x="0.3125">1</bar>
-      <!--step: 10, left: 0.328125, right: 0.3359375-->
+      <!--step: 9, left: 0.046875, right: 0.052083336-->
+      <bar color="yellow" x="0.3125">0</bar>
+      <!--step: 10, left: 0.052083336, right: 0.057291668-->
       <bar color="yellow" x="0.34375">0</bar>
-      <!--step: 11, left: 0.3359375, right: 0.34375-->
+      <!--step: 11, left: 0.057291668, right: 0.0625-->
       <bar color="yellow" x="0.375">0</bar>
-      <!--step: 12, left: 0.34375, right: 0.3515625-->
+      <!--step: 12, left: 0.0625, right: 0.067708336-->
       <bar color="yellow" x="0.40625">0</bar>
-      <!--step: 13, left: 0.3515625, right: 0.359375-->
+      <!--step: 13, left: 0.067708336, right: 0.07291667-->
       <bar color="yellow" x="0.4375">0</bar>
-      <!--step: 14, left: 0.359375, right: 0.3671875-->
+      <!--step: 14, left: 0.07291667, right: 0.078125-->
       <bar color="yellow" x="0.46875">0</bar>
-      <!--step: 15, left: 0.3671875, right: 0.375-->
+      <!--step: 15, left: 0.078125, right: 0.083333336-->
       <bar color="yellow" x="0.5">0</bar>
-      <!--step: 16, left: 0.375, right: 0.3828125-->
+      <!--step: 16, left: 0.083333336, right: 0.08854167-->
       <bar color="yellow" x="0.53125">0</bar>
-      <!--step: 17, left: 0.3828125, right: 0.390625-->
+      <!--step: 17, left: 0.08854167, right: 0.09375-->
       <bar color="yellow" x="0.5625">0</bar>
-      <!--step: 18, left: 0.390625, right: 0.3984375-->
-      <bar color="yellow" x="0.59375">0</bar>
-      <!--step: 19, left: 0.3984375, right: 0.40625-->
+      <!--step: 18, left: 0.09375, right: 0.098958336-->
+      <bar color="red" x="0.59375">1</bar>
+      <!--step: 19, left: 0.098958336, right: 0.10416667-->
       <bar color="yellow" x="0.625">0</bar>
-      <!--step: 20, left: 0.40625, right: 0.4140625-->
+      <!--step: 20, left: 0.10416667, right: 0.109375-->
       <bar color="yellow" x="0.65625">0</bar>
-      <!--step: 21, left: 0.4140625, right: 0.421875-->
+      <!--step: 21, left: 0.109375, right: 0.114583336-->
       <bar color="yellow" x="0.6875">0</bar>
-      <!--step: 22, left: 0.421875, right: 0.4296875-->
+      <!--step: 22, left: 0.114583336, right: 0.11979167-->
       <bar color="yellow" x="0.71875">0</bar>
-      <!--step: 23, left: 0.4296875, right: 0.4375-->
+      <!--step: 23, left: 0.11979167, right: 0.125-->
       <bar color="yellow" x="0.75">0</bar>
-      <!--step: 24, left: 0.4375, right: 0.4453125-->
+      <!--step: 24, left: 0.125, right: 0.13020834-->
       <bar color="yellow" x="0.78125">0</bar>
-      <!--step: 25, left: 0.4453125, right: 0.453125-->
+      <!--step: 25, left: 0.13020834, right: 0.13541667-->
       <bar color="yellow" x="0.8125">0</bar>
-      <!--step: 26, left: 0.453125, right: 0.4609375-->
+      <!--step: 26, left: 0.13541667, right: 0.140625-->
       <bar color="yellow" x="0.84375">0</bar>
-      <!--step: 27, left: 0.4609375, right: 0.46875-->
-      <bar color="yellow" x="0.875">0</bar>
-      <!--step: 28, left: 0.46875, right: 0.4765625-->
+      <!--step: 27, left: 0.140625, right: 0.14583334-->
+      <bar color="red" x="0.875">1</bar>
+      <!--step: 28, left: 0.14583334, right: 0.15104167-->
       <bar color="yellow" x="0.90625">0</bar>
-      <!--step: 29, left: 0.4765625, right: 0.484375-->
+      <!--step: 29, left: 0.15104167, right: 0.15625-->
       <bar color="yellow" x="0.9375">0</bar>
-      <!--step: 30, left: 0.484375, right: 0.4921875-->
-      <bar color="yellow" x="0.96875">1</bar>
-      <!--step: 31, left: 0.4921875, right: 0.5-->
+      <!--step: 30, left: 0.15625, right: 0.16145834-->
+      <bar color="red" x="0.96875">1</bar>
+      <!--step: 31, left: 0.16145834, right: 0.16666667-->
    </bars>
    <statistics>
       <total>37</total>
-      <elements>4</elements>
-      <mean>0.3333333333333333</mean>
-      <sigma>0.10206207261596575</sigma>
-      <variance>0.010416666666666666</variance>
+      <elements>8</elements>
+      <mean>0.06190476190476191</mean>
+      <sigma>0.06293499417703549</sigma>
+      <variance>0.003960813492063492</variance>
       <defects>0.25</defects>
    </statistics>
 </metric>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <index xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        artifact="unknown"
-       date="2021-07-08T05:08:52.858450700Z"
-       defects="0.22818963443963444"
-       diff="0.8481423367208549"
-       score="4.5312"
+       date="2021-07-08T05:21:59.413114200Z"
+       defects="0.22986735486735485"
+       diff="0.8969236610116693"
+       score="4.2211"
        version="1.0-SNAPSHOT"
        xsi:noNamespaceSchemaLocation="xsd/index.xsd">
-   <metric diff="-0.8406101187761134" name="EO_CAMC">
+   <metric diff="-0.8289009816860412" name="EO_CAMC">
       <html>EO_CAMC.html</html>
       <xml>EO_CAMC.xml</xml>
       <elements>9</elements>
@@ -57,7 +57,57 @@
       <sigma>0.09534348959614614</sigma>
       <mean>0.27526455026455027</mean>
    </metric>
-   <metric diff="-0.8896531591526939" name="EO_LCC">
+   <metric diff="-0.8815468334749517" name="EO_CCM">
+      <html>EO_CCM.html</html>
+      <xml>EO_CCM.xml</xml>
+      <elements>8</elements>
+      <classes>37</classes>
+      <green>0</green>
+      <yellow>0</yellow>
+      <red>8</red>
+      <score>0.5</score>
+      <reverse>true</reverse>
+      <min>0.0</min>
+      <max>0.16666666666666666</max>
+      <bars xmlns:xs="http://www.w3.org/2001/XMLSchema">
+         <bar color="red" x="0">2</bar>
+         <bar color="yellow" x="0.03125">0</bar>
+         <bar color="yellow" x="0.0625">0</bar>
+         <bar color="yellow" x="0.09375">0</bar>
+         <bar color="red" x="0.125">2</bar>
+         <bar color="red" x="0.15625">1</bar>
+         <bar color="yellow" x="0.1875">0</bar>
+         <bar color="yellow" x="0.21875">0</bar>
+         <bar color="yellow" x="0.25">0</bar>
+         <bar color="yellow" x="0.28125">0</bar>
+         <bar color="yellow" x="0.3125">0</bar>
+         <bar color="yellow" x="0.34375">0</bar>
+         <bar color="yellow" x="0.375">0</bar>
+         <bar color="yellow" x="0.40625">0</bar>
+         <bar color="yellow" x="0.4375">0</bar>
+         <bar color="yellow" x="0.46875">0</bar>
+         <bar color="yellow" x="0.5">0</bar>
+         <bar color="yellow" x="0.53125">0</bar>
+         <bar color="yellow" x="0.5625">0</bar>
+         <bar color="red" x="0.59375">1</bar>
+         <bar color="yellow" x="0.625">0</bar>
+         <bar color="yellow" x="0.65625">0</bar>
+         <bar color="yellow" x="0.6875">0</bar>
+         <bar color="yellow" x="0.71875">0</bar>
+         <bar color="yellow" x="0.75">0</bar>
+         <bar color="yellow" x="0.78125">0</bar>
+         <bar color="yellow" x="0.8125">0</bar>
+         <bar color="yellow" x="0.84375">0</bar>
+         <bar color="red" x="0.875">1</bar>
+         <bar color="yellow" x="0.90625">0</bar>
+         <bar color="yellow" x="0.9375">0</bar>
+         <bar color="red" x="0.96875">1</bar>
+      </bars>
+      <defects>0.25</defects>
+      <sigma>0.06293499417703549</sigma>
+      <mean>0.06190476190476191</mean>
+   </metric>
+   <metric diff="-0.8815468334749517" name="EO_LCC">
       <html>EO_LCC.html</html>
       <xml>EO_LCC.xml</xml>
       <elements>4</elements>
@@ -107,7 +157,7 @@
       <sigma>0.08229799015573508</sigma>
       <mean>0.1607142857142857</mean>
    </metric>
-   <metric diff="1.2069368169461219" name="EO_LCOM1">
+   <metric diff="1.3690633305009672" name="EO_LCOM1">
       <html>EO_LCOM1.html</html>
       <xml>EO_LCOM1.xml</xml>
       <elements>8</elements>
@@ -157,7 +207,7 @@
       <sigma>5.792715732327589</sigma>
       <mean>8.666666666666666</mean>
    </metric>
-   <metric diff="0.4975642686420112" name="EO_LCOM2">
+   <metric diff="0.6075786885542278" name="EO_LCOM2">
       <html>EO_LCOM2.html</html>
       <xml>EO_LCOM2.xml</xml>
       <elements>7</elements>
@@ -207,7 +257,7 @@
       <sigma>0.16246953886014995</sigma>
       <mean>0.6545918367346939</mean>
    </metric>
-   <metric diff="0.9704793008447516" name="EO_LCOM3">
+   <metric diff="1.1152351165187209" name="EO_LCOM3">
       <html>EO_LCOM3.html</html>
       <xml>EO_LCOM3.xml</xml>
       <elements>7</elements>
@@ -257,7 +307,7 @@
       <sigma>0.20677083087450268</sigma>
       <mean>0.8639455782312926</mean>
    </metric>
-   <metric diff="1.2069368169461219" name="EO_LCOM4">
+   <metric diff="1.3690633305009672" name="EO_LCOM4">
       <html>EO_LCOM4.html</html>
       <xml>EO_LCOM4.xml</xml>
       <elements>33</elements>
@@ -307,7 +357,7 @@
       <sigma>1.018650685695249</sigma>
       <mean>1.4848484848484849</mean>
    </metric>
-   <metric diff="1.2069368169461219" name="EO_LCOM5">
+   <metric diff="1.3690633305009672" name="EO_LCOM5">
       <html>EO_LCOM5.html</html>
       <xml>EO_LCOM5.xml</xml>
       <elements>5</elements>
@@ -357,7 +407,7 @@
       <sigma>0.0</sigma>
       <mean>1.0</mean>
    </metric>
-   <metric diff="-0.3517123100220767" name="EO_NHD">
+   <metric diff="-0.3040876466653409" name="EO_NHD">
       <html>EO_NHD.html</html>
       <xml>EO_NHD.xml</xml>
       <elements>8</elements>
@@ -407,7 +457,7 @@
       <sigma>0.20038737110340168</sigma>
       <mean>0.47827380952380955</mean>
    </metric>
-   <metric diff="-0.7793063183053878" name="EO_OCC">
+   <metric diff="-0.7630936669499033" name="EO_OCC">
       <html>EO_OCC.html</html>
       <xml>EO_OCC.xml</xml>
       <elements>4</elements>
@@ -457,7 +507,7 @@
       <sigma>0.10206207261596575</sigma>
       <mean>0.3333333333333333</mean>
    </metric>
-   <metric diff="-0.44826579576346953" name="EO_PCC">
+   <metric diff="-0.4077341673747582" name="EO_PCC">
       <html>EO_PCC.html</html>
       <xml>EO_PCC.xml</xml>
       <elements>1</elements>
@@ -507,7 +557,7 @@
       <sigma>0.0</sigma>
       <mean>0.42857142857142855</mean>
    </metric>
-   <metric diff="-0.8896531591526939" name="EO_SCOM">
+   <metric diff="-0.8815468334749517" name="EO_SCOM">
       <html>EO_SCOM.html</html>
       <xml>EO_SCOM.xml</xml>
       <elements>4</elements>
@@ -557,7 +607,7 @@
       <sigma>0.03727642543222345</sigma>
       <mean>0.04398148148148148</mean>
    </metric>
-   <metric diff="-0.8896531591526939" name="EO_TCC">
+   <metric diff="-0.8815468334749517" name="EO_TCC">
       <html>EO_TCC.html</html>
       <xml>EO_TCC.xml</xml>
       <elements>4</elements>

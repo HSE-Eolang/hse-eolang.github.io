@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metric xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        date="2021-07-08T05:08:51.630733600Z"
+        date="2021-07-08T05:21:57.907503600Z"
         schema="xsd/skeleton.xsd"
         version="1.0-SNAPSHOT"
         xsi:noNamespaceSchemaLocation="xsd/metric.xsd">
@@ -15,24 +15,29 @@
                 element="true"
                 id="MutableNode"
                 value="0.42857142857142855"/>
-         <class color="yellow" element="false" id="ImmutableTree" value="0.5"/>
          <class color="red" element="false" id="AbstractTree" value="0.0"/>
+         <class color="yellow" element="false" id="ImmutableTree" value="0.5"/>
+      </package>
+      <package element="false" id="com.github.javaparser.generator.core.utils">
+         <class color="red" element="false" id="CodeUtils" value="0.0"/>
       </package>
       <package element="false" id="com.github.javaparser.generator.core.other">
          <class color="red" element="false" id="TokenKindGenerator" value="0.0"/>
-         <class color="red" element="false" id="BndGenerator" value="0.0"/>
          <class color="red"
                 element="false"
                 id="GrammarLetterGenerator"
                 value="0.0"/>
-      </package>
-      <package element="false" id="com.github.javaparser.generator.core.utils">
-         <class color="red" element="false" id="CodeUtils" value="0.0"/>
+         <class color="red" element="false" id="BndGenerator" value="0.0"/>
       </package>
       <package element="false" id="com.github.javaparser.generator.core.node">
          <class color="red"
                 element="false"
                 id="NodeModifierGenerator"
+                value="0.0"/>
+         <class color="red" element="false" id="AcceptGenerator" value="0.0"/>
+         <class color="red"
+                element="false"
+                id="GetMetaModelGenerator"
                 value="0.0"/>
          <class color="red"
                 element="false"
@@ -40,23 +45,18 @@
                 value="0.0"/>
          <class color="red"
                 element="false"
-                id="GetMetaModelGenerator"
-                value="0.0"/>
-         <class color="red" element="false" id="CloneGenerator" value="0.0"/>
-         <class color="red"
-                element="false"
-                id="MainConstructorGenerator"
-                value="0.0"/>
-         <class color="red" element="false" id="AcceptGenerator" value="0.0"/>
-         <class color="red"
-                element="false"
                 id="RemoveMethodGenerator"
                 value="0.0"/>
+         <class color="red" element="false" id="PropertyGenerator" value="0.0"/>
+         <class color="red" element="false" id="CloneGenerator" value="0.0"/>
          <class color="red"
                 element="false"
                 id="TypeCastingGenerator"
                 value="0.0"/>
-         <class color="red" element="false" id="PropertyGenerator" value="0.0"/>
+         <class color="red"
+                element="false"
+                id="MainConstructorGenerator"
+                value="0.0"/>
       </package>
       <package element="false" id="com.github.javaparser.generator">
          <class color="red" element="false" id="Generator" value="0.0"/>
@@ -70,15 +70,15 @@
                 value="0.0"/>
          <class color="red"
                 element="false"
-                id="GenericListVisitorAdapterGenerator"
+                id="ObjectIdentityEqualsVisitorGenerator"
                 value="0.0"/>
          <class color="red"
                 element="false"
-                id="VoidVisitorAdapterGenerator"
+                id="HashCodeVisitorGenerator"
                 value="0.0"/>
          <class color="red"
                 element="false"
-                id="CloneVisitorGenerator"
+                id="VoidVisitorGenerator"
                 value="0.0"/>
          <class color="red"
                 element="false"
@@ -86,11 +86,7 @@
                 value="0.0"/>
          <class color="red"
                 element="false"
-                id="EqualsVisitorGenerator"
-                value="0.0"/>
-         <class color="red"
-                element="false"
-                id="ObjectIdentityHashCodeVisitorGenerator"
+                id="GenericVisitorAdapterGenerator"
                 value="0.0"/>
          <class color="red"
                 element="false"
@@ -102,19 +98,11 @@
                 value="0.0"/>
          <class color="red"
                 element="false"
-                id="HashCodeVisitorGenerator"
+                id="VoidVisitorAdapterGenerator"
                 value="0.0"/>
          <class color="red"
                 element="false"
-                id="GenericVisitorAdapterGenerator"
-                value="0.0"/>
-         <class color="red"
-                element="false"
-                id="NoCommentHashCodeVisitorGenerator"
-                value="0.0"/>
-         <class color="red"
-                element="false"
-                id="VoidVisitorGenerator"
+                id="CloneVisitorGenerator"
                 value="0.0"/>
          <class color="red"
                 element="false"
@@ -122,7 +110,19 @@
                 value="0.0"/>
          <class color="red"
                 element="false"
-                id="ObjectIdentityEqualsVisitorGenerator"
+                id="EqualsVisitorGenerator"
+                value="0.0"/>
+         <class color="red"
+                element="false"
+                id="GenericListVisitorAdapterGenerator"
+                value="0.0"/>
+         <class color="red"
+                element="false"
+                id="NoCommentHashCodeVisitorGenerator"
+                value="0.0"/>
+         <class color="red"
+                element="false"
+                id="ObjectIdentityHashCodeVisitorGenerator"
                 value="0.0"/>
       </package>
       <package element="false" id="com.github.javaparser.generator.core">

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <matrix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        date="2021-07-08T05:08:53.464829100Z"
+        date="2021-07-08T05:22:00.136181500Z"
         version="1.0-SNAPSHOT"
         xsi:noNamespaceSchemaLocation="xsd/matrix.xsd">
    <classes>
       <class id=".AbstractTree"
-             rank="0.6000"
+             rank="0.5692"
              short_id=".AbstractTree"
              trust="0.5">
          <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="green" name="EO_LCOM1" rank="5"/>
          <metric color="green" name="EO_LCOM2" rank="5"/>
@@ -22,10 +23,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".AcceptGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".AcceptGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -39,10 +41,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".BndGenerator"
-             rank="0.2667"
+             rank="0.2615"
              short_id=".BndGenerator"
              trust="0.5">
          <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -56,10 +59,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".CloneGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".CloneGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -73,10 +77,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".CloneVisitorGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".CloneVisitorGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -91,6 +96,7 @@
       </class>
       <class id=".CodeUtils" rank="0.2000" short_id=".CodeUtils" trust="1">
          <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -108,6 +114,7 @@
              short_id=".CoreGenerator"
              trust="1">
          <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -121,10 +128,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".EqualsVisitorGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".EqualsVisitorGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -138,10 +146,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".Generator"
-             rank="0.5667"
+             rank="0.5385"
              short_id=".Generator"
              trust="0.3333333333333333">
          <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="green" name="EO_LCOM1" rank="5"/>
          <metric color="green" name="EO_LCOM2" rank="5"/>
@@ -155,10 +164,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".GenericListVisitorAdapterGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".GenericListVisitorAdapterGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -172,10 +182,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".GenericVisitorAdapterGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".GenericVisitorAdapterGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -189,10 +200,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".GenericVisitorGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".GenericVisitorGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -206,10 +218,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".GenericVisitorWithDefaultsGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".GenericVisitorWithDefaultsGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -223,10 +236,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".GetMetaModelGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".GetMetaModelGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -244,6 +258,7 @@
              short_id=".GrammarLetterGenerator"
              trust="1">
          <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -257,10 +272,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".HashCodeVisitorGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".HashCodeVisitorGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -274,10 +290,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".ImmutableNode"
-             rank="0.5667"
+             rank="0.5385"
              short_id=".ImmutableNode"
              trust="0.3333333333333333">
          <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="green" name="EO_LCOM1" rank="5"/>
          <metric color="green" name="EO_LCOM2" rank="5"/>
@@ -291,10 +308,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".ImmutableTree"
-             rank="0.5000"
+             rank="0.4769"
              short_id=".ImmutableTree"
              trust="0.3333333333333333">
          <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="green" name="EO_LCOM1" rank="5"/>
          <metric color="yellow" name="EO_LCOM2" rank="3"/>
@@ -308,10 +326,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".MainConstructorGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".MainConstructorGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -325,10 +344,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".ModifierVisitorGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".ModifierVisitorGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -342,10 +362,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".MutableNode"
-             rank="0.6333"
+             rank="0.6000"
              short_id=".MutableNode"
              trust="0.3333333333333333">
          <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="yellow" name="EO_LCC" rank="3"/>
          <metric color="green" name="EO_LCOM1" rank="5"/>
          <metric color="green" name="EO_LCOM2" rank="5"/>
@@ -359,10 +380,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".MutableTree"
-             rank="0.5333"
+             rank="0.5077"
              short_id=".MutableTree"
              trust="0.3333333333333333">
          <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="green" name="EO_LCOM1" rank="5"/>
          <metric color="yellow" name="EO_LCOM2" rank="3"/>
@@ -376,10 +398,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".NoCommentEqualsVisitorGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".NoCommentEqualsVisitorGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -393,10 +416,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".NoCommentHashCodeVisitorGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".NoCommentHashCodeVisitorGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -410,10 +434,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".NodeGenerator"
-             rank="0.3667"
+             rank="0.3538"
              short_id=".NodeGenerator"
              trust="0.3333333333333333">
          <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="green" name="EO_LCOM1" rank="5"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -427,10 +452,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".NodeModifierGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".NodeModifierGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -444,10 +470,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".ObjectIdentityEqualsVisitorGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".ObjectIdentityEqualsVisitorGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -461,10 +488,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".ObjectIdentityHashCodeVisitorGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".ObjectIdentityHashCodeVisitorGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -478,10 +506,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".PropertyGenerator"
-             rank="0.5333"
+             rank="0.5077"
              short_id=".PropertyGenerator"
              trust="0.3333333333333333">
          <metric color="yellow" name="EO_CAMC" rank="3"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="green" name="EO_LCOM1" rank="5"/>
          <metric color="yellow" name="EO_LCOM2" rank="3"/>
@@ -495,10 +524,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".RemoveMethodGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".RemoveMethodGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -512,10 +542,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".ReplaceMethodGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".ReplaceMethodGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -529,10 +560,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".TokenKindGenerator"
-             rank="0.2667"
+             rank="0.2615"
              short_id=".TokenKindGenerator"
              trust="0.5">
          <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -546,10 +578,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".TypeCastingGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".TypeCastingGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -563,10 +596,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".VisitorGenerator"
-             rank="0.5333"
+             rank="0.5077"
              short_id=".VisitorGenerator"
              trust="0.5">
          <metric color="red" name="EO_CAMC" rank="1"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="green" name="EO_LCOM1" rank="5"/>
          <metric color="green" name="EO_LCOM2" rank="5"/>
@@ -580,10 +614,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".VoidVisitorAdapterGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".VoidVisitorAdapterGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -597,10 +632,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".VoidVisitorGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".VoidVisitorGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
@@ -614,10 +650,11 @@
          <metric color="red" name="EO_TCC" rank="1"/>
       </class>
       <class id=".VoidVisitorWithDefaultsGenerator"
-             rank="0.3333"
+             rank="0.3231"
              short_id=".VoidVisitorWithDefaultsGenerator"
              trust="0.5">
          <metric color="green" name="EO_CAMC" rank="5"/>
+         <metric color="red" name="EO_CCM" rank="1"/>
          <metric color="red" name="EO_LCC" rank="1"/>
          <metric color="red" name="EO_LCOM1" rank="1"/>
          <metric color="red" name="EO_LCOM2" rank="1"/>
