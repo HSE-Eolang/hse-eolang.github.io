@@ -9,7 +9,7 @@
    </mask>
    <g mask="url(#a)">
       <path d="M0 0h27v20H0z" fill="#555"/>
-      <path d="M27 0h77v20H27z" fill="#dfb317"/>
+      <path d="M27 0h77v20H27z" fill="#d9644d"/>
    </g>
    <g fill="#fff"
       font-family="DejaVu Sans,Verdana,Geneva,sans-serif"
@@ -89,7 +89,7 @@
             fill-opacity=".3"
             text-anchor="end"
             x="72.5"
-            y="15">5.6323</text>
-      <text text-anchor="end" x="72.5" y="14">5.6323</text>
+            y="15">4.5312</text>
+      <text text-anchor="end" x="72.5" y="14">4.5312</text>
    </g>
 </svg>
